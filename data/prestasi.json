@@ -1,0 +1,1260 @@
+[
+  {
+    "id": 1,
+    "category": "mahasiswa",
+    "year": "2015",
+    "title": "Juara 2 Sisfotime 3 / Web Development Universitas Telkom - 2015",
+    "description": "Mahasiswa berhasil meraih Juara Kedua dalam kompetisi Web Development pada ajang Sisfotime 3 yang diselenggarakan di Universitas Telkom.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/B_FcKIIA_HA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 2,
+    "category": "prodi",
+    "year": "2015",
+    "title": "Penandatanganan MoU dengan S1 Teknik Informatika ST3 Telkom Purwokerto",
+    "description": "Program Studi D4 Teknik Informatika Politeknik Harapan Bersama Tegal resmi menandatangani nota kesepahaman (MoU) dengan S1 Teknik Informatika ST3 Telkom Purwokerto guna menjalin kerjasama dan kolaborasi dalam bidang pengembangan Tri Dharma Perguruan Tinggi.",
+    "icon": "handshake",
+    "link": "https://informatika.poltekharber.ac.id/berita/d4-teknik-informatika-jalin-kerjasama-dengan-s1-teknik-informatika-sekolah-tinggi-teknologi-telematika-telkom"
+  },
+  {
+    "id": 3,
+    "category": "mahasiswa",
+    "year": "2016",
+    "title": "Juara 1 Kategori Mobile Application Solution pada Ajang Sisfotime 4 Telkom University",
+    "description": "Tim Slice Pro yang beranggotakan mahasiswa Prodi D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 dalam kategori Mobile Application Solution di ajang Sisfotime 4 Telkom University lewat produk aplikasi android bernama Tegal Tourism.",
+    "icon": "emoji_events",
+    "students": [
+      "Arif Hidayah",
+      "Firdaus Nursugiarto",
+      "Bakti Nurwahyudin"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-raih-juara-1-di-ajang-sisfotime-4-telkom-university"
+  },
+  {
+    "id": 4,
+    "category": "mahasiswa",
+    "year": "2016",
+    "title": "Finalis / Nominator Kategori Health and Well-Being pada Ajang AMICTA 2016",
+    "description": "Mahasiswa Prodi D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih predikat sebagai finalis/nominator dalam Kategori Health and Well-Being pada ajang penghargaan teknologi AMICTA (Amikom ICT Award) 2016 yang diselenggarakan oleh STMIK Amikom Yogyakarta.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-jadi-ict-heroes-amicta-2016-di-stmik-amikom-yogyakarta"
+  },
+  {
+    "id": 5,
+    "category": "mahasiswa",
+    "year": "2017",
+    "title": "Juara 3 Kategori Smart Transportation pada Ajang TBiG CreatiON 2017",
+    "description": "Tim Slice Pro yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 3 dalam kategori Smart Transportation di ajang TBiG CreatiON 2017 yang diselenggarakan oleh PT Tower Bersama Infrastructure Group Tbk (TBIG) lewat produk aplikasi AgroCar berbasis Android.",
+    "icon": "emoji_events",
+    "students": [
+      "Arif Hidayah",
+      "Firdaus Nursugiarto",
+      "Bakti Nurwahyudin"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-raih-juara-3-di-event-tbig-creation-2017"
+  },
+  {
+    "id": 6,
+    "category": "prodi",
+    "year": "2017",
+    "title": "Juara Umum Prodi Terbaik se-Poltek HB dalam Rangkaian Kegiatan Dies Natalis ke-15 Politeknik Harapan Bersama",
+    "description": "Program Studi D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih predikat Juara Umum Program Studi Terbaik se-Poltek HB, mengungguli 6 program studi lainnya berdasarkan penilaian tim yang ditunjuk oleh Direktur Poltek HB pada ajang Dies Natalis ke-15.",
+    "icon": "emoji_events",
+    "link": "https://informatika.poltekharber.ac.id/berita/prodi-ti-raih-juara-umum-prodi-terbaik-se-poltek-hb"
+  },
+  {
+    "id": 7,
+    "category": "prodi",
+    "year": "2017",
+    "title": "Penandatanganan MOA (Memorandum Of Agreement) dengan Preinexus",
+    "description": "Program Studi D IV Teknik Informatika Politeknik Harapan Bersama resmi menjalin kerjasama dalam bentuk MOA dengan Preinexus guna bersinergi dalam penyusunan kurikulum berbasis KKNI, pengembangan digital learning, peningkatan kompetensi dosen, serta penyelenggaraan uji kompetensi mahasiswa.",
+    "icon": "handshake",
+    "link": "https://informatika.poltekharber.ac.id/berita/teknik-informatika-phb-teken-moa-dengan-preinexus"
+  },
+  {
+    "id": 8,
+    "category": "mahasiswa",
+    "year": "2017",
+    "title": "Juara 1 Tingkat Umum Lomba Krenova (Kreativitas dan Inovasi) Kota Tegal Tahun 2017",
+    "description": "Tim mahasiswa Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 tingkat umum pada ajang lomba Krenova 2017 yang diselenggarakan oleh BP4D Pemerintah Kota Tegal lewat produk aplikasi Tegal Tourism berbasis Android.",
+    "icon": "emoji_events",
+    "students": [
+      "Arif Hidayah",
+      "Bakti Nurwahyudin",
+      "Firdaus Nur Sugiarto",
+      "Ady Wardana",
+      "Helfanza Nanda",
+      "Prieyuda Akadita"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-phb-raih-juara-1-kreanova-kota-tegal"
+  },
+  {
+    "id": 9,
+    "category": "prodi",
+    "year": "2017",
+    "title": "Kunjungan Studi Banding dan Kerjasama dengan UII Yogyakarta dan UMM Magelang",
+    "description": "Program Studi D4 Teknik Informatika Politeknik Harapan Bersama Tegal melaksanakan kunjungan studi banding sekaligus menandatangani naskah kerjasama dengan Prodi S1 Teknik Informatika UII Yogyakarta dan S1 Teknik Informatika UMM Magelang terkait peningkatan mutu Tri Dharma Perguruan Tinggi.",
+    "icon": "handshake",
+    "link": "https://informatika.poltekharber.ac.id/berita/teknik-informatika-poltek-hb-lakukan-studi-banding-dan-kerjasama-dengan-uii-dan-umm"
+  },
+  {
+    "id": 10,
+    "category": "mahasiswa",
+    "year": "2018",
+    "title": "Juara 1 Kategori Kompetisi Pengembangan Perangkat Lunak pada Ajang Codig Competition 1.0 2018",
+    "description": "Tim Tawakal yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 dalam kategori Kompetisi Pengembangan Perangkat Lunak di ajang Code Up Your Digital Technologies (Codig) Competition 1.0 yang diselenggarakan oleh Universitas Mercu Buana Jakarta lewat produk aplikasi penanganan kondisi darurat bernama Doraemon.",
+    "icon": "emoji_events",
+    "students": [
+      "Azka Wildan Mukholladun",
+      "Novianto Arief Wibowo",
+      "Ali Budi Purnomo"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/tim-tawakal-kembali-raih-juara-1-kali-ini-di-event-codig-1-0-universitas-mercu-buana"
+  },
+  {
+    "id": 11,
+    "category": "mahasiswa",
+    "year": "2018",
+    "title": "Juara 1 Kategori Software Development pada Ajang Computer Atmosphere (CompSphere) 2018",
+    "description": "Tim Probie yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 dalam kategori Software Development di ajang Computer Atmosphere (CompSphere) 2018 yang diselenggarakan oleh President University Bekasi lewat produk Aplikasi Cari Dana berbasis Mobile.",
+    "icon": "emoji_events",
+    "students": [
+      "Nazzul Barri",
+      "Fredy Nur Apriyanto"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/tim-probie-ti-phb-juara-1-dalam-event-compsphere-president-university"
+  },
+  {
+    "id": 12,
+    "category": "mahasiswa",
+    "year": "2018",
+    "title": "Juara 1 Kategori Web Development Competition pada Ajang Soedirman Technoporia 2018",
+    "description": "Tim GrowUp yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 dalam kategori Web Development Competition di ajang Soedirman Technoporia 2018 yang diselenggarakan oleh Universitas Jenderal Soedirman Purwokerto lewat produk Aplikasi GrowUp berbasis Website.",
+    "icon": "emoji_events",
+    "students": [
+      "Arif Hidayah",
+      "Bayu Adi Prasetyo"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-raih-juara-1-di-event-soedirman-technoporia-2018"
+  },
+  {
+    "id": 13,
+    "category": "mahasiswa",
+    "year": "2018",
+    "title": "Juara 1 Kategori Mobile Application Competition pada Ajang IT Holic 2018",
+    "description": "Tawakal Team yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 1 dalam kategori Mobile Application Competition di ajang IT Holic 2018 yang diselenggarakan oleh Sekolah Tinggi Teknologi Bandung lewat produk aplikasi Smart City Kota Tegal berbasis Android.",
+    "icon": "emoji_events",
+    "students": [
+      "Azka Wildan Mukholladun",
+      "Novianto Arief Wibowo",
+      "Fanni Naditya Putra"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-raih-juara-1-di-event-it-holic-2018"
+  },
+  {
+    "id": 14,
+    "category": "mahasiswa",
+    "year": "2018",
+    "title": "Juara 2 Kategori Mobile Apps UI/UX pada Ajang I-Fest (IT Festival) 2018",
+    "description": "Tim Dev-7 yang beranggotakan mahasiswa D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih Juara 2 dalam kategori Mobile Apps UI/UX pada ajang I-Fest (IT Festival) 2018 yang diselenggarakan oleh Universitas Muhammadiyah Prof. Dr. Hamka (UHAMKA) Jakarta lewat desain E-Commerce berbasis Android.",
+    "icon": "emoji_events",
+    "students": [
+      "Mohammad Syaiful Zihan",
+      "Dhiya Reksa Kusumojati",
+      "Ali Budi Purnomo"
+    ],
+    "link": "https://informatika.poltekharber.ac.id/berita/mahasiswa-teknik-informatika-raih-juara-2-di-event-i-fest-2018"
+  },
+  {
+    "id": 15,
+    "category": "prodi",
+    "year": "2019",
+    "title": "Juara Umum Prodi Terbaik dalam Rangkaian Kegiatan Dies Natalis ke-17 Politeknik Harapan Bersama",
+    "description": "Program Studi D IV Teknik Informatika Politeknik Harapan Bersama berhasil meraih predikat Juara Umum Program Studi Terbaik untuk yang kedua kalinya, mengungguli 9 program studi lainnya berdasarkan penilaian berbagai indikator mutu akademik dan pencapaian selama tahun akademik 2017/2018.",
+    "icon": "emoji_events",
+    "link": "https://informatika.poltekharber.ac.id/berita/prodi-ti-kembali-raih-juara-umum-prodi-terbaik-se-poltek-hb"
+  },
+  {
+    "id": 16,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara 3 Alterchamps MLBB Tournament Tingkat Nasional",
+    "description": "PHB Esport Team yang terdiri dari mahasiswa Teknik Informatika berhasil meraih Juara 3 dalam ajang Alterchamps MLBB Tournament Tingkat Nasional.",
+    "icon": "emoji_events",
+    "students": [
+      "Sugeng Sulistianto",
+      "Moh. Rizki",
+      "Ade Noval",
+      "Ali Husni",
+      "Fajar Sidiq"
+    ],
+    "link": "https://www.instagram.com/p/CXH-XuiBvXy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 17,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara 2 LKTI Tingkat Nasional Informatic Competition Universitas Ahmad Dahlan (ICOM UAD) 2021",
+    "description": "ARCHIE TEAM yang terdiri dari mahasiswa Teknik Informatika berhasil meraih Juara 2 dalam ajang LKTI Tingkat Nasional Informatic Competition Universitas Ahmad Dahlan (ICOM UAD) 2021.",
+    "icon": "emoji_events",
+    "students": [
+      "Nurlaela",
+      "Nurul Arifiah",
+      "Desty Nurul"
+    ],
+    "link": "https://www.instagram.com/p/CW90m56BS5C/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 18,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Prestasi BDA Competition Lomba Cyber Security Tingkat Nasional",
+    "description": "Mahasiswa Teknik Informatika berhasil meraih prestasi dalam ajang BDA Competition Lomba Cyber Security Tingkat Nasional, di mana Fariq Fadillah Gusti Insani meraih predikat Runner Up dan Maulana Alamsyah berhasil menjadi Finalis 10 Besar.",
+    "icon": "emoji_events",
+    "students": [
+      "Fariq Fadillah Gusti Insani",
+      "Maulana Alamsyah"
+    ],
+    "link": "https://www.instagram.com/p/CW90fzEh_rX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 19,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara 2 Karya Tulis Ilmiah Tingkat Nasional Ajang Fun Learning Competition 2021",
+    "description": "Mahasiswa Teknik Informatika berhasil meraih Juara 2 dalam kompetisi Karya Tulis Ilmiah Tingkat Nasional pada Ajang Fun Learning Competition 2021 yang diselenggarakan di Universitas Brawijaya.",
+    "icon": "emoji_events",
+    "students": [
+      "Andini Dwi Ambarwati",
+      "Ika Bella Fitriani Putri",
+      "Diana Lestari"
+    ],
+    "link": "https://www.instagram.com/p/CWDSJbVh2gR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 20,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Lolos Program Talenta Inovasi Indonesia KEMENDIKBUDRISTEK",
+    "description": "Abdi Akhsanul Afkar, mahasiswa Teknik Informatika, berhasil lolos dalam Program Talenta Inovasi Indonesia yang diselenggarakan oleh KEMENDIKBUDRISTEK.",
+    "icon": "emoji_events",
+    "students": [
+      "Abdi Akhsanul Afkar"
+    ],
+    "link": "https://www.instagram.com/p/CWAsBnbh6yv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 21,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara 3 Lomba Karya Tulis Ilmiah Tingkat Nasional Ajang Vocational of The Champions 2021",
+    "description": "Mahasiswa Teknik Informatika berhasil meraih Juara 3 dalam Lomba Karya Tulis Ilmiah Tingkat Nasional di ajang Vocational of The Champions 2021 yang diselenggarakan di Universitas Negeri Sebelas Maret.",
+    "icon": "emoji_events",
+    "students": [
+      "Koandres",
+      "Laeli Nurafiah",
+      "Irfan Triadi Saputra"
+    ],
+    "link": "https://www.instagram.com/p/CVu0eVbBgkE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 22,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Lolos Program Pejuang Muda Kementerian Sosial",
+    "description": "Mahasiswa Teknik Informatika berhasil lolos dalam Program Pejuang Muda yang diselenggarakan oleh Kementerian Sosial Republik Indonesia.",
+    "icon": "emoji_events",
+    "students": [
+      "Aisatul Mutoharoh",
+      "Eli Krisnawati"
+    ],
+    "link": "https://www.instagram.com/p/CVSLVgXhAvF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 23,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Lolos Program Kampus Mengajar",
+    "description": "Mahasiswa Program Studi Sarjana Terapan Teknik Informatika berhasil lolos dan menjadi Peserta Kampus Mengajar sebagai bagian dari program Merdeka Belajar Kampus Merdeka.",
+    "icon": "emoji_events",
+    "students": [
+      "Agung Iswanto",
+      "Annisa Pandu",
+      "Amaliyah Gian F."
+    ],
+    "link": "https://www.instagram.com/p/CTT86isB4qY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 24,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Peraih Program Studi Independen Bersertifikat Kampus Merdeka",
+    "description": "Sebanyak 15 Mahasiswa Prodi Sarjana Terapan Teknik Informatika berhasil lolos dan meraih Program Studi Independen Bersertifikat Kampus Merdeka di berbagai mitra industri seperti Artificial Intelligence Huawei, Microsoft - Data and Artificial Intelligence, Microsoft Productivity: The Modern Workplace, serta Agate - Game Development Course and Bootcamp.",
+    "icon": "emoji_events",
+    "students": [
+      "Alfin Auzikri",
+      "Ziyan Fadilla S",
+      "Faizal Aji Wibowo",
+      "Nurul Chotimah",
+      "M. Zaim Zamzami",
+      "Dimas Shofa",
+      "Ilham Hanif",
+      "Umar Ulkhak",
+      "Alfian Bayu",
+      "Sidna Muhammad Zen",
+      "Qirani Rifa Annisa",
+      "Abdi Akhsanul",
+      "Rama Kisara Rian",
+      "Ighfar Nazar",
+      "Khibar Pusaka"
+    ],
+    "link": "https://www.instagram.com/p/CTRUbhWBifn/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 25,
+    "category": "prodi",
+    "year": "2021",
+    "title": "Mitra Penyelenggara Program Studi Independen Artificial Intelligence Huawei",
+    "description": "Program Studi Sarjana Terapan Teknik Informatika berhasil terpilih dan dipercaya sebagai Mitra Penyelenggara Program Studi Independen Artificial Intelligence Huawei.",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/CTO6QjSh10Z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 26,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Finalis Global AI Innovation Challenge Series 2021 yang diselenggarakan oleh Alibaba Cloud",
+    "description": "Mahasiswa Sarjana Terapan Teknik Informatika berhasil lolos menjadi Finalis dalam ajang kompetisi internasional Global AI Innovation Challenge Series 2021 yang diselenggarakan oleh Alibaba Cloud.",
+    "icon": "emoji_events",
+    "students": [
+      "Susi Nurindahsari",
+      "Muhammad Rizki",
+      "Novita Fitria P"
+    ],
+    "link": "https://www.instagram.com/p/CS2waCrBbUq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 27,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Lolos sebagai Finalis GemasTIK 2021 Divisi Keamanan Siber",
+    "description": "Tim H4ckM3 dari Prodi Sarjana Terapan Teknik Informatika berhasil lolos sebagai Finalis GemasTIK 2021 dalam Divisi Keamanan Siber.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/CSy3ZwjBwfJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 28,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Berhasil Meraih Pendanaan PKM DIKTI VOKASI Tahun 2021",
+    "description": "Mahasiswa Program Studi Sarjana Terapan Teknik Informatika berhasil lolos dan meraih pendanaan dalam ajang Program Kreativitas Mahasiswa (PKM) DIKTI Vokasi Tahun 2021.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/CPScFe8D4t7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 29,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Mendirikan Start Up Pangsa (PT. Satya Karya Adyatama)",
+    "description": "Selamat kepada mahasiswa Teknik Informatika yang telah berhasil mendirikan start up bernama Pangsa di bawah payung hukum PT. Satya Karya Adyatama.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/COZ0FHZDNwv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 30,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara II Kategori App di Event UBP Techno Day 5.0",
+    "description": "Selamat kepada Bale-Bale Team yang telah berhasil meraih Juara II Kategori App dalam event UBP Techno Day 5.0.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/CL9Aa2gD2oQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 31,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara II Kategori MOBILE APPS di Event Kompetisi INVFEST 5.0",
+    "description": "Selamat kepada TEAMBRO yang telah berhasil meraih Juara II Kategori MOBILE APPS di Event Kompetisi INVFEST 5.0.",
+    "icon": "emoji_events",
+    "students": [],
+    "link": "https://www.instagram.com/p/CLYgbvXjCEO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 32,
+    "category": "mahasiswa",
+    "year": "2021",
+    "title": "Juara 2 Kategori Mobile App pada Event Kompetisi Nasional Informatics Innovation Festival 5.0 (INVFEST 5.0)",
+    "description": "TeamBro dari Program Studi D IV Teknik Informatika Politeknik Harapan Bersama Tegal berhasil meraih Juara 2 kategori Mobile App pada ajang kompetisi nasional Informatics Innovation Festival 5.0 (INVFEST 5.0).",
+    "icon": "emoji_events",
+    "students": [
+      "Ikhwanudin",
+      "Helfanza Nanda Alfara",
+      "Saiful Labib Marzuqi Hidayat"
+    ],
+    "link": "https://www.instagram.com/p/CI5auNMjNGa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 33,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Lolos Seleksi Program Kampus Mengajar",
+    "description": "Mahasiswa Teknik Informatika  berhasil lolos seleksi Program Kampus Mengajar dari Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI.",
+    "icon": "school",
+    "students": [
+      "Shindy Millati",
+      "Azzah Fitriatun",
+      "Risky Halaliyah",
+      "Diana Lestari"
+    ],
+    "link": "https://www.instagram.com/p/CZjSaePJriY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 34,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Lulus Program Sertifikasi Internasional Microsoft",
+    "description": "Mahasiswa Program Studi Sarjana Terapan Teknik Informatika  berhasil lulus dalam Program Sertifikasi Internasional Microsoft.",
+    "icon": "workspace_premium",
+    "students": [
+      "M. Zaim Zamzami",
+      "Nurul Chotimah",
+      "Alfin Auzikri",
+      "Faizal Aji Wibowo"
+    ],
+    "link": "https://www.instagram.com/p/CY_Ic3QL1Oy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 35,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Lulus Sertifikasi Internasional Huawei",
+    "description": "5 Mahasiswa Program Studi Sarjana Terapan Teknik Informatika berhasil lulus Sertifikasi Internasional Huawei. Program sertifikasi kompetensi ini sangat membantu dalam membuktikan kapasitas keahlian seseorang sekaligus bisa meningkatkan karier pekerjaan.",
+    "icon": "workspace_premium",
+    "students": [
+      "Ighfar Nazar Shobary",
+      "Khibar Pusaka",
+      "Susi Nurindahsari",
+      "Muhammad Rizki",
+      "Alfian Bayu Samudra"
+    ],
+    "link": "https://www.instagram.com/p/CY3DV2yLw--/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 36,
+    "category": "prodi",
+    "year": "2022",
+    "title": "Program Studi Terbaik Poltek Harber Tahun 2022",
+    "description": "Selamat dan Sukses untuk Program Studi Sarjana Terapan Teknik Informatika sebagai Program Studi Terbaik Poltek Harber Tahun 2022 dalam rangka Diesnatalis  ke XXI.",
+    "icon": "workspace_premium",
+    "link": "https://www.instagram.com/p/CulRK2jPVf2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 37,
+    "category": "prodi",
+    "year": "2022",
+    "title": "Penunjukan Direktur Eksekutif PELITA Indonesia",
+    "description": "Bapak Ginanjar Wiro Sasmito, M.Kom., Dosen Prodi Teknik Informatika , terpilih menjadi Direktur Eksekutif Perkumpulan Politeknik Swasta (PELITA) Indonesia Periode 2022-2027.",
+    "icon": "work",
+    "link": "https://www.instagram.com/p/CeEJyvlJDag/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 38,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "10 Proposal Terbaik PKM Fest 2022",
+    "description": "Lima mahasiswa prodi D4 Teknik Informatika berhasil lolos dan masuk ke dalam jajaran 10 Proposal Terbaik pada ajang PKM Fest 2022 (Lomba Penulisan Proposal Program Kreativitas Mahasiswa) di .",
+    "icon": "emoji_events",
+    "students": [
+      "Laeli Nurafiah",
+      "Koandres",
+      "Rohadatul Aisyi Fatikha",
+      "Annur Riyadhus Solikhin",
+      "Reza Maulana Rizky"
+    ],
+    "link": "https://www.instagram.com/p/Cche-dirIDE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 39,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 1 Lomba Kreativitas Dan Inovasi Masyarakat (Krenova) Kabupaten Brebes",
+    "description": "Tim mahasiswa Teknik Informatika (MMAN Team) berhasil meraih Juara 1 pada ajang Lomba Kreativitas Dan Inovasi Masyarakat (Krenova) tingkat Kabupaten Brebes Tahun 2022.",
+    "icon": "emoji_events",
+    "students": [
+      "MMAN Team"
+    ],
+    "link": "https://www.instagram.com/p/CbhgC6xLoU6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 40,
+    "category": "prodi",
+    "year": "2022",
+    "title": "Penunjukan Direktur Eksekutif PELITA Indonesia",
+    "description": "Bapak Ginanjar Wiro Sasmito, M.Kom., Dosen Prodi Teknik Informatika , terpilih menjadi Direktur Eksekutif Perkumpulan Politeknik Swasta (PELITA) Indonesia Periode 2022-2027.",
+    "icon": "work",
+    "link": "https://www.instagram.com/p/CeEJyvlJDag/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 41,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "10 Proposal Terbaik PKM Fest 2022",
+    "description": "Lima mahasiswa prodi D4 Teknik Informatika berhasil lolos dan masuk ke dalam jajaran 10 Proposal Terbaik pada ajang PKM Fest 2022 (Lomba Penulisan Proposal Program Kreativitas Mahasiswa) di Politeknik Harapan Bersama.",
+    "icon": "emoji_events",
+    "students": [
+      "Laeli Nurafiah",
+      "Koandres",
+      "Rohadatul Aisyi Fatikha",
+      "Annur Riyadhus Solikhin",
+      "Reza Maulana Rizky"
+    ],
+    "link": "https://www.instagram.com/p/Cche-dirIDE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 42,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 1 Lomba Kreativitas Dan Inovasi Masyarakat (Krenova) Kabupaten Brebes",
+    "description": "Tim mahasiswa Teknik Informatika (MMAN Team) berhasil meraih Juara 1 pada ajang Lomba Kreativitas Dan Inovasi Masyarakat (Krenova) tingkat Kabupaten Brebes Tahun 2022.",
+    "icon": "emoji_events",
+    "students": [
+      "MMAN Team"
+    ],
+    "link": "https://www.instagram.com/p/CbhgC6xLoU6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 43,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 3 1st IoT Creation Competition 2022 Kategori Smart City",
+    "description": "Tim Mahasiswa Sarjana Terapan Teknik Informatika berhasil meraih Juara 3 pada Lomba Tingkat Nasional 1st IoT Creation Competition (Innovation) 2022 untuk kategori Smart City.",
+    "icon": "emoji_events",
+    "students": [
+      "Moh. Rizki",
+      "Musnadil Firdaus",
+      "Nurlaela",
+      "Aji Bagus"
+    ],
+    "link": "https://www.instagram.com/p/CaHJ-HcpfS0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 44,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 2 Nasional Habibie Tech Fest 2022",
+    "description": "Desty Nurul Anitsa, mahasiswi Prodi Sarjana Terapan Teknik Informatika, berhasil meraih Juara 2 Tingkat Nasional dalam ajang Habibie Tech Fest 2022 pada kategori AI Mastery oleh Orbit Future Academy.",
+    "icon": "emoji_events",
+    "students": [
+      "Desty Nurul Anitsa"
+    ],
+    "link": "https://www.instagram.com/p/Cmv7zVqLTFq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+  },
+  {
+    "id": 45,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Lolos Program MSIB Kemendikbud RI Tahap 2",
+    "description": "Sebanyak 36 Mahasiswa Prodi Sarjana Terapan Teknik Informatika berhasil lolos Program Magang Dan Studi Independen Bersertifikat (MSIB) Kemendikbud RI Tahap 2 Tahun 2022.",
+    "icon": "school",
+    "students": [
+      "36 Mahasiswa"
+    ],
+    "link": "https://www.instagram.com/p/CZrCBeZpwcp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 46,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 3 1st IOT Creation Competition",
+    "description": "Tim Mahasiswa Sarjana Terapan Teknik Informatika berhasil meraih Juara 3 dalam ajang 1st IOT Creation Competition 2022 pada Kategori Smart City.",
+    "icon": "emoji_events",
+    "students": [
+      "Moh. Rizki",
+      "Musnadil Firdaus",
+      "Nurlaela",
+      "Aji Bagus"
+    ],
+    "link": "https://www.instagram.com/p/CaHJ-HcpfS0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 47,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Juara 3 1st IOT Creation Competition",
+    "description": "Tim Mahasiswa Sarjana Terapan Teknik Informatika berhasil meraih Juara 3 dalam ajang 1st IOT Creation Competition 2022 pada Kategori Smart Education.",
+    "icon": "emoji_events",
+    "students": [
+      "Pratama Ardy",
+      "Rian Pratama",
+      "Siti Nurul Ulumi",
+      "M. Iktafal Maarif"
+    ],
+    "link": "https://www.instagram.com/p/CZ1QpnHJRcw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 48,
+    "category": "mahasiswa",
+    "year": "2022",
+    "title": "Lulus Program Sertifikasi Internasional Huawei (HCIA-AI)",
+    "description": "Mahasiswa Teknik Informatika berhasil lulus dalam Program Sertifikasi Internasional Huawei (HCIA-AI) sebagai wujud peningkatan kompetensi global di bidang kecerdasan buatan.",
+    "icon": "emoji_events",
+    "students": [
+      "Alfian Bayu",
+      "M. Rizki",
+      "Ighfar Nazar",
+      "Susi Nurindahsari",
+      "Khibar Pusaka"
+    ],
+    "link": "https://www.instagram.com/p/CYQwf2vLEx-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 49,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Lolos Pendanaan Program Kreativitas Mahasiswa (PKM-KC)",
+    "description": "Tim PKM-KC dari Program Studi Teknik Informatika Poltek Harber berhasil lolos pendanaan dari Direktorat Jenderal Pendidikan Vokasi dengan judul proyek 'Virtual Assistant untuk Pelayanan Kesehatan Mental pada Generasi Z'.",
+    "icon": "emoji_events",
+    "program": "PKM-KC (Program Kreativitas Mahasiswa - Karsa Cipta)",
+    "tagline": "Technology for Better Life",
+    "institution": "Politeknik Harapan Bersama (Poltek Harber)",
+    "link": "https://www.instagram.com/p/CsImVYsPM8v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 50,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara 1 Nasional Pencak Silat Tegal Championship",
+    "description": "Satria Wibawa, mahasiswa D4 Teknik Informatika, berhasil meraih Juara 1 Nasional pada Kejuaraan Pencak Silat Tegal Championship yang diselenggarakan di Tegal pada 25–26 November 2023.",
+    "icon": "emoji_events",
+    "students": [
+      "Satria Wibawa"
+    ],
+    "link": "https://www.instagram.com/p/C1V65v2vUdF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 51,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara 1 Kompetisi Karya Inovasi Mahasiswa Nasional 2023",
+    "description": "Tim mahasiswa D4 Teknik Informatika berhasil meraih Juara 1 pada Kompetisi Karya Inovasi Mahasiswa Nasional 2023 kategori Data Science Health Care yang diselenggarakan oleh Politeknik Indonusa Surakarta.",
+    "icon": "emoji_events",
+    "students": [
+      "Vita Aulia Rahma",
+      "Bella Aghfari Indria",
+      "Lela Puspitasari Amelia",
+      "Arisangga Barlian"
+    ],
+    "link": "https://www.instagram.com/p/C0vMkA9PhvG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 52,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara 1 Web Development Informatics Engineering Competition 2023",
+    "description": "Tim mahasiswa D4 Teknik Informatika berhasil meraih Juara 1 pada Web Development Informatics Engineering Competition 2023 yang diselenggarakan oleh Universitas Negeri Jakarta.",
+    "icon": "emoji_events",
+    "students": [
+      "Dodi",
+      "Karel Trisnanto Utomo",
+      "Faisal Arrahman Pratama"
+    ],
+    "link": "https://www.instagram.com/p/CyA9wrxvAza/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 53,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara II Nasional Web Application Digital Bisnis Festival",
+    "description": "Team Mahasiswa Prodi Sarjana Terapan Teknik Informatika yang terdiri dari Lulu Nadhiatun Anisa, Avriansyah Bahtiar, dan Firda Aulia Rakhmah, berhasil meraih Juara II Nasional Web Application Digital Bisnis Festival di Universitas Nusa Mandiri Jakarta.",
+    "icon": "emoji_events",
+    "students": [
+      "Lulu Nadhiatun Anisa",
+      "Avriansyah Bahtiar",
+      "Firda Aulia Rakhmah"
+    ],
+    "link": "https://www.instagram.com/p/CwxHohEvwca/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 54,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara II Web Design Crowd IT di Institut Bisnis dan Informatika Bogor",
+    "description": "Selamat dan Sukses Team Mahasiswa Teknik Informatika atas diraihnya juara II Web Design Crowd IT di Institut Bisnis dan Informatika Bogor Tahun 2023. Anggota tim terdiri dari Rohadatul Aisyi Fatikha, Aji jagat Saputra, dan Putri Willa Andini.",
+    "icon": "emoji_events",
+    "students": [
+      "Rohadatul Aisyi Fatikha",
+      "Aji jagat Saputra",
+      "Putri Willa Andini"
+    ],
+    "link": "https://www.instagram.com/p/CvZbPnQPRgj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 55,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Meraih Sertifikat Internasional HCIA-Artificial Intelligence dari Huawei",
+    "description": "Novita Fitria Putri dan Dwi Indah Fitria Sari, Mahasiswa Sarjana Terapan Teknik Informatika Poltek Harber, berhasil meraih Sertifikat Internasional HCIA-Artificial Intelligence dari Huawei.",
+    "icon": "emoji_events",
+    "students": [
+      "Novita Fitria Putri",
+      "Dwi Indah Fitria Sari"
+    ],
+    "link": "https://www.instagram.com/p/Ctvy7Qsv0OR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 56,
+    "category": "prodi",
+    "year": "2023",
+    "title": "Lolos Hibah Penelitian Produk Vokasi (P2V) Kemendikbudristek",
+    "description": "Dwi Intan Af'idah, M.Kom., Dairoh, M.Sc., dan Sharfina Febbi Handayani, M.Kom., Dosen Sarjana Terapan Teknik Informatika Poltek Harber, berhasil lolos Hibah Penelitian Produk Vokasi (P2V) dari Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi.",
+    "icon": "emoji_events",
+    "students": [
+      "Dwi Intan Af'idah, M.Kom.",
+      "Dairoh, M.Sc.",
+      "Sharfina Febbi Handayani, M.Kom."
+    ],
+    "link": "https://www.instagram.com/p/CtgxU7VvY2c/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 57,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Finalis UNY National IT Competition 2023 Bidang Software Development",
+    "description": "Nurlaela dan Deni Saputra, Mahasiswa Program Studi Teknik Informatika tergabung dalam Tim Gfuture, berhasil menjadi Finalis UNY National IT Competition 2023 pada Bidang Software Development.",
+    "icon": "emoji_events",
+    "students": [
+      "Nurlaela",
+      "Deni Saputra"
+    ],
+    "link": "https://www.instagram.com/p/Csixn22PQXH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 58,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Peraih IPK Tertinggi Semester VII",
+    "description": "Alfin Auzikri, mahasiswa Program Studi Teknik Informatika, berhasil meraih IPK tertinggi sebesar 3,96 pada Semester VII Tahun Akademik 2022/2023.",
+    "icon": "emoji_events",
+    "students": [
+      "Alfin Auzikri"
+    ],
+    "link": "https://www.instagram.com/p/CpEQS4jBfWO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 59,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Peraih IPK Tertinggi Semester V",
+    "description": "Laeli Nurafiah, mahasiswa Program Studi Teknik Informatika, berhasil meraih IPK tertinggi sebesar 3,96 pada Semester V Tahun Akademik 2022/2023.",
+    "icon": "emoji_events",
+    "students": [
+      "Laeli Nurafiah"
+    ],
+    "link": "https://www.instagram.com/p/CpEQOShBL2g/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 60,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara II Karya Tulis Ilmiah Silogy Expo Edufair UNISKA",
+    "description": "Avriansyah Bahtiar, mahasiswa Poltek Harber, berhasil meraih Juara II Karya Tulis Ilmiah pada ajang Silogy Expo Edufair UNISKA (Universitas Singaperbangsa Karawang) dengan tema \"Technology for Better Life\".",
+    "icon": "emoji_events",
+    "students": [
+      "Avriansyah Bahtiar"
+    ],
+    "link": "https://www.instagram.com/p/CwxI7McvPz4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 61,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Medali Emas Karya Tulis Ilmiah Mahasiswa Online Tingkat Nasional (LKTIN) UB",
+    "description": "Mahasiswa Sarjana Terapan Teknik Informatika  berhasil meraih Medali Emas pada ajang Karya Tulis Ilmiah Mahasiswa Online Tingkat Nasional (LKTIN) 2023 yang diselenggarakan oleh Universitas Brawijaya. Judul karya ilmiah: Aplikasi Rekomendasi Film Dengan Fitur Deteksi Suara Dan Wajah Menggunakan Deep Learning Algoritma Convolutional Neural Network (CNN).",
+    "icon": "emoji_events",
+    "students": [
+      "Satrio Ramadhan Wicaksono",
+      "Moh. Fiqih Erinsyah",
+      "Vita Karenina"
+    ],
+    "link": "https://www.instagram.com/p/CxMWrQzvVzz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 62,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Juara III Gemastik XVI Tahun 2023",
+    "description": "Mahasiswa Sarjana Terapan Teknik Informatika  berhasil meraih Juara 3 dalam Pagelaran Mahasiswa Nasional Bidang TIK (GEMASTIK) 2023 dengan bersaing bersama kampus-kampus hebat di seluruh Indonesia.",
+    "icon": "emoji_events",
+    "students": [
+      "Maulana Alamsyah",
+      "Desty Nurul Anitsa"
+    ],
+    "link": "https://www.instagram.com/p/CxNTYXsvtZk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 63,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Peraih IPK Tertinggi (4,00) Semester III TA 2022/2023",
+    "description": "Avriansyah Bahtiar, mahasiswa Prodi Teknik Informatika, berhasil meraih IPK Sempurna 4,00 sebagai Peraih IPK Tertinggi Semester III pada Tahun Akademik 2022/2023.",
+    "icon": "emoji_events",
+    "students": [
+      "Avriansyah Bahtiar"
+    ],
+    "link": "https://www.instagram.com/p/CpEQJDPB6KX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+  },
+  {
+    "id": 64,
+    "category": "mahasiswa",
+    "year": "2023",
+    "title": "Peraih IPK Tertinggi (4,00) Semester I TA 2022/2023",
+    "description": "Karel Trisnanto Utomo, mahasiswa Prodi Teknik Informatika, berhasil meraih IPK Sempurna 4,00 sebagai Peraih IPK Tertinggi Semester I pada Tahun Akademik 2022/2023.",
+    "icon": "emoji_events",
+    "students": [
+      "Karel Trisnanto Utomo"
+    ],
+    "link": "https://www.instagram.com/p/CpEQCiKBcgf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+  },
+  {
+    "id": 65,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara II Harber Cup Lomba Futsal",
+    "description": "Team Futsal Teknik Informatika berhasil meraih gelar Juara II dalam ajang perlombaan Harber Cup Lomba Futsal.",
+    "icon": "emoji_events",
+    "students": [
+      "Team Futsal Teknik Informatika"
+    ],
+    "link": "https://www.instagram.com/p/C-9d8CNv669/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 66,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara III Nasional Lomba Website Development",
+    "description": "Angga Sukha Pratama, mahasiswa Sarjana Terapan Teknik Informatika, berhasil meraih Juara III Nasional pada Lomba Website Development dalam ajang Silogy Expo National Competition yang diselenggarakan oleh Universitas Singaperbangsa Karawang.",
+    "icon": "emoji_events",
+    "students": [
+      "Angga Sukha Pratama"
+    ],
+    "link": "https://www.instagram.com/p/C-ucp1vviEi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 67,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Meraih Pendanaan Program Ormawa Membangun Negeri (POMN)",
+    "description": "Himpunan Mahasiswa Teknik Informatika (HMPTI)  telah berhasil meraih Pendanaan Program Ormawa Membangun Negeri (POMN) Tahun 2024.",
+    "icon": "emoji_events",
+    "students": [
+      "Himpunan Mahasiswa Teknik Informatika (HMPTI)"
+    ],
+    "link": "https://www.instagram.com/p/C9UavoIPpwa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 68,
+    "category": "prodi",
+    "year": "2024",
+    "title": "Best Performance Teacher Award 'HUAWEI' 2024",
+    "description": "Slamet Wiyono, S.Pd., M.Eng, Dosen Teknik Informatika , berhasil meraih penghargaan Best Performance Teacher Award 'HUAWEI' 2024.",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/DD6BBdxS0z2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 69,
+    "category": "prodi",
+    "year": "2024",
+    "title": "Pelantikan Pejabat Struktural  Periode 2024-2028",
+    "description": "Selamat dan Sukses atas dilantiknya pejabat struktural baru: Ir. Ginanjar Wiro Sasmito, M.Kom (Wakil Direktur IV), Dyah Apriliani, S.T., M.Kom (Kaprodi Sarjana Terapan Teknik Informatika), Dwi Intan Af'idah, S.T., M.Kom (Sekprodi Sarjana Terapan Teknik Informatika), Dega Surono Wibowo, S.T., M.Kom (Kabag TIK), dan M. Fikri Hidayatullah, S.T., M.Kom (Kabag P3M).",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/DBGjLnbPRCa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 70,
+    "category": "prodi",
+    "year": "2024",
+    "title": "Dosen Peraih Hibah Nasional Penelitian Produk Vokasi Dirjen Vokasi Periode Ketiga Tahun 2024",
+    "description": "Selamat dan Sukses kepada Dosen Program Studi Sarjana Terapan Teknik Informatika  yang berhasil meraih Hibah Nasional Penelitian Produk Vokasi Dirjen Vokasi Periode Ketiga Tahun 2024: Muhammad Fikri Hidayatullah, S.T., M.Kom., Ardi Susanto, S.Kom., M.Cs., Dwi Intan Af'idah, S.T., M.Kom., dan Sharfina Febbi Handayani, M.Kom.",
+    "icon": "award",
+    "link": "https://www.instagram.com/p/C_QJ_4NvqY7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 71,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara 3 International SDGs Student Competition (USM ISSCO 2024)",
+    "description": "Fi Ismatun Nisa berhasil meraih prestasi gemilang dengan mendapatkan Juara 3 (3rd Place) dalam ajang Speech Competition pada International SDGs Student Competition (USM ISSCO) 2024.",
+    "icon": "emoji_events",
+    "students": [
+      "Fi Ismatun Nisa"
+    ],
+    "link": "https://www.instagram.com/p/C5RxbsjyTf2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 72,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara 3 Lomba Kreativitas dan Inovasi Masyarakat (Krenova) Kota Tegal",
+    "description": "Tim mahasiswa Teknik Informatika  yang beranggotakan Avriansyah, Lulu, Firda, Balkis, dan Faisal berhasil meraih Juara 3 dalam ajang Lomba Kreativitas dan Inovasi Masyarakat (Krenova) tingkat Kota Tegal.",
+    "icon": "emoji_events",
+    "students": [
+      "Avriansyah",
+      "Lulu",
+      "Firda",
+      "Balkis",
+      "Faisal"
+    ],
+    "link": "https://www.instagram.com/p/C678WpHPNip/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 73,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara 3 Pencak Silat Krida SH Terate CUP 1 Jawa Tengah",
+    "description": "Satria Wibowo, mahasiswa Teknik Informatika, berhasil meraih prestasi sebagai Juara 3 dalam kejuaraan Pencak Silat Krida SH Terate CUP 1 Jawa Tengah.",
+    "icon": "emoji_events",
+    "students": [
+      "Satria Wibowo"
+    ],
+    "link": "https://www.instagram.com/p/C1V7j5-vtQv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 74,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara III Nasional Web Design Landing Page Institut Pendidikan Indonesia",
+    "description": "Karel Trisnanto, Dodi, dan Faisal Arrahman Pratama, mahasiswa Teknik Informatika, berhasil meraih Juara III Nasional Web Design Landing Page Institut Pendidikan Indonesia yang diselenggarakan pada tanggal 17 Mei 2024.",
+    "icon": "emoji_events",
+    "students": [
+      "Karel Trisnanto",
+      "Dodi",
+      "Faisal Arrahman Pratama"
+    ],
+    "link": "https://www.instagram.com/p/C7jZxKrvoIh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 75,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara III Speech Competition International SDGs Student Competition",
+    "description": "Fi Ismatun Nisa, mahasiswa Teknik Informatika, berhasil meraih juara 3 Speech Competition Internasional SDGs Student Competition pada tanggal 2 April 2024.",
+    "icon": "emoji_events",
+    "students": [
+      "Fi Ismatun Nisa"
+    ],
+    "link": "https://www.instagram.com/p/C68U5woPg97/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 76,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara III Lomba Kreativitas dan Inovasi Masyarakat (KRENOVA) Tingkat Kota Tegal",
+    "description": "Avriansyah, Lulu, Firda, Balkis, dan Faisal, mahasiswa Teknik Informatika, berhasil meraih penghargaan Juara III Lomba Kreativitas dan Inovasi Masyarakat (KRENOVA) Tingkat Kota Tegal Tahun 2024 pada tanggal 30 April 2024.",
+    "icon": "emoji_events",
+    "students": [
+      "Avriansyah",
+      "Lulu",
+      "Firda",
+      "Balkis",
+      "Faisal"
+    ],
+    "link": "https://www.instagram.com/p/C678WpHPNip/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 77,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Lolos POMN 2024",
+    "description": "HIMA Prodi Teknik Informatika  berhasil Lolos POMN 2024 dengan judul proposal 'Pemberdayaan Pokdarwis Melalui Digitalisasi Pariwisata Pasar Slumpring Sebagai Upaya Peningkatan Kunjungan Wisata Di Desa Cempaka'. Proposal ini diketuai oleh Berliani Risqi Dwi Saputri, Mahasiswa Prodi Sarjana Terapan Teknik Informatika.",
+    "icon": "emoji_events",
+    "students": [
+      "Berliani Risqi Dwi Saputri"
+    ],
+    "link": "https://www.instagram.com/p/C9SAYp8SHP1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 78,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara Best Spirit & Finalis KMIPN VI",
+    "description": "Team Gratia Divina dari Prodi Sarjana Terapan Teknik Informatika berhasil menjadi finalis dan meraih juara Best Spirit kategori Cipta Inovasi TIK pada Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) VI di Politeknik Negeri Jakarta dengan karya berjudul 'AquaSolve : Solusi Kolaboratif Untuk Krisis Air Bersih Berbasis Mobile'. Terima kasih atas semangat nya, usahanya, dan kerja kerasnya team..., terima kasih juga atas bimbingan nya Bu @sharfinahanda_ 🙏✨",
+    "icon": "emoji_events",
+    "students": [
+      "Team Gratia Divina (@karel_trisnanto, @hrl9127, @princearrp)"
+    ],
+    "link": "https://www.instagram.com/p/C9PfIjTPMLT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 79,
+    "category": "mahasiswa",
+    "year": "2024",
+    "title": "Juara 1 Lomba Web Development Informatic Festival 2024",
+    "description": "Mahasiswa Prodi D4 Teknik Informatika berhasil mendapatkan Juara 1 lomba Web Development Informatic Festival 2024 yang diselenggarakan oleh Universitas PGRI Semarang (UPGRIS).",
+    "icon": "emoji_events",
+    "students": [
+      "Ilham Hadi Wicaksono",
+      "Satrio Ramadan Wicaksono",
+      "Karel Tristanto Utomo"
+    ],
+    "link": "https://www.instagram.com/reel/C8wN6VWScr2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 80,
+    "category": "prodi",
+    "year": "2025",
+    "title": "Kerja Sama Industri & Penunjukan Advisor Perusahaan",
+    "description": "Ginanjar Wiro Sasmito, Dosen D4 Teknik Informatika, dipercaya menjadi Advisor SeeMeSOL Indonesia dan Advisor PT. Tenhal Bekerja Bersama sebagai perwujudan sinergi program studi dengan dunia industri.",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/DQYEIlWEh9r/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 81,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Meraih Predikat The Google Student Ambassador (GSA)",
+    "description": "Faisal Arrahman Pratama, mahasiswa Program Studi Sarjana Terapan Teknik Informatika, atas capaian dan keberhasilan dalam meraih predikat The Google Student Ambassador (GSA).",
+    "icon": "emoji_events",
+    "students": [
+      "Faisal Arrahman Pratama"
+    ],
+    "link": "https://www.instagram.com/p/DQGsnWUAQyM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 82,
+    "category": "prodi",
+    "year": "2025",
+    "title": "Akreditasi Baik Sekali oleh LAM INFOKOM",
+    "description": "Program Studi Sarjana Terapan (D4) Teknik Informatika Universitas Harkat Negeri telah resmi terakreditasi oleh LAM INFOKOM dengan peringkat Akreditasi Baik Sekali.",
+    "icon": "verified",
+    "link": "https://www.instagram.com/p/DN72_RykvuQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 83,
+    "category": "prodi",
+    "year": "2025",
+    "title": "Lolos Hibah Nasional Program Dana Padanan (Matching Fund) Kemendiktisaintek",
+    "description": "Tim dosen prodi berhasil lolos Hibah Nasional Program Dana Padanan (Matching Fund) Kemendiktisaintek Tahun 2025 dengan judul penelitian 'Komersialisasi Platform Rempahtour sebagai Penunjang Program Pariwisata Berkelanjutan dan Edukasi Jalur Rempah Nusantara'. Tim terdiri dari Muhammad Fikri Hidayatullah, Sharfina Febbi Handayani, dan Dwi Intan Af'idah.",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/DNbK6RXyapV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 84,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 2 Nasional Competition of Developer (CODE 5.0) Kategori Software Development",
+    "description": "Tim mahasiswa berhasil meraih Juara 2 Tingkat Nasional dalam ajang Competition of Developer (CODE 5.0) Kategori Software Development yang diselenggarakan oleh AMIKOM Yogyakarta.",
+    "icon": "emoji_events",
+    "students": [
+      "Ilham Hatta Manggala",
+      "Aura Pitaloka",
+      "Fajar Wicaksono"
+    ],
+    "link": "https://www.instagram.com/p/DNQZrKJSL6i/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 85,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 2 English Speech Contest",
+    "description": "Fi Ismatun Nisa berhasil meraih Juara 2 dalam ajang English Speech Contest pada kegiatan International Student Mobility and Joint Summer Camp 2025.",
+    "icon": "emoji_events",
+    "students": [
+      "Fi Ismatun Nisa"
+    ],
+    "link": "https://www.instagram.com/p/DNDV0b1S46K/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 86,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 1 Tingkat Internasional Kategori Kompetisi Prototype Product in Entrepreneurship",
+    "description": "Tim 'Logika Mistika' berhasil meraih Juara 1 Tingkat Internasional dalam kategori Kompetisi Prototype Product in Entrepreneurship pada ajang The 5th International Information Technology Expo (IITE) 2025 dengan produk 'Pegon AI: An Artificial Intelligence-Based Pegon Manuscript Preservation App'.",
+    "icon": "emoji_events",
+    "students": [
+      "M. Ilham Rigan Agachi",
+      "M. Ibrahim Hanif",
+      "Ananda Adhitama Afriansyah"
+    ],
+    "link": "https://www.instagram.com/p/DM4IobZygA4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 87,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 2 Kompetisi Nasional Website Development di Universitas PGRI Semarang",
+    "description": "Faisal Arrahman Pratama, Dodi, Karel Trisnanto Utomo, dan Ilham Hadi Wicaksono, mahasiswa Teknik Informatika, berhasil meraih Juara 2 dalam Kompetisi Nasional Website Development yang diselenggarakan di Universitas PGRI Semarang.",
+    "icon": "emoji_events",
+    "students": [
+      "Faisal Arrahman Pratama",
+      "Dodi",
+      "Karel Trisnanto Utomo",
+      "Ilham Hadi Wicaksono"
+    ],
+    "link": "https://www.instagram.com/p/DMb_oXbSguj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 88,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 3 KONKITI 2025 Kompetisi Nasional Karya Inovatif Website Development",
+    "description": "Dodi, Karel Trisnanto, dan Faisal Arrahman, mahasiswa Teknik Informatika, berhasil meraih Juara 3 dalam ajang KONKITI 2025 (Kompetisi Nasional Karya Inovatif) bidang Website Development yang diselenggarakan oleh PT. Indo Apps Solusindo.",
+    "icon": "emoji_events",
+    "students": [
+      "Dodi",
+      "Karel Trisnanto",
+      "Faisal Arrahman"
+    ],
+    "link": "https://www.instagram.com/p/DKtgaM_y0Yi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 89,
+    "category": "prodi",
+    "year": "2025",
+    "title": "Pelantikan Pengurus KADIN Indonesia & PII",
+    "description": "Ginanjar Wiro Sasmito, Dosen Teknik Informatika, resmi dilantik mengemban amanah baru sebagai Wakil Ketua Komite Tetap Revitalisasi Kurikulum & Standar Profesi Kerja di KADIN Indonesia (2024-2029) serta Anggota Bidang Standarisasi, Regulasi, dan Sertifikasi Profesi di PII (Persatuan Insinyur Indonesia) (2024-2027).",
+    "icon": "handshake",
+    "link": "https://www.instagram.com/p/DHK-11cSMyD/?igsh=YWxrYmpidDY5N2s0"
+  },
+  {
+    "id": 90,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Prestasi Karate di BAHARI CUP JATENG OPEN Karate Championship 2025",
+    "description": "Fitria Ramadhani, mahasiswa D4 Teknik Informatika, berhasil meraih prestasi gemilang dengan menyabet Juara 2 Kumite +50 kg dan Juara 3 Kumite -60 kg pada ajang BAHARI CUP JATENG OPEN Karate Championship 2025.",
+    "icon": "emoji_events",
+    "students": [
+      "Fitria Ramadhani"
+    ],
+    "link": "https://www.instagram.com/p/DHASN4hSqPk/?igsh=YmdwMDdyZDF3ZnNi"
+  },
+  {
+    "id": 91,
+    "category": "mahasiswa",
+    "year": "2025",
+    "title": "Juara 1 Kejuaraan Nasional Pencak Silat Wisanggeni Tegal Championship 2",
+    "description": "Satria Wibowo, mahasiswa D4 Teknik Informatika, berhasil meraih prestasi membanggakan sebagai Juara 1 Tanding Kelas F Putra Dewasa pada Kejuaraan Nasional Pencak Silat 'Wisanggeni Tegal Championship 2'.",
+    "icon": "emoji_events",
+    "students": [
+      "Satria Wibowo"
+    ],
+    "link": "https://www.instagram.com/p/DJqCLPkyygF/?igsh=dWpuNjB4ZzdpOTkw"
+  },
+  {
+    "id": 92,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Lolos Skema Insentif PKM-GFT",
+    "description": "Tim mahasiswa berhasil lolos skema insentif PKM-GFT dengan karya berjudul HOLOVERSE: Gagasan Laboratorium Holografik Berbasis Mixed Reality Sebagai Solusi Untuk Pemerataan Pendidikan Di Wilayah 3T Menuju Indonesia Emas 2045. Dosen Pembimbing: Sharfina Febbi Handayani, M.Kom.",
+    "icon": "emoji_events",
+    "students": [
+      "Tri Novi Utami",
+      "Nissa Zahra Zhafirah",
+      "M. Saifi Khayatu Ulumuddin",
+      "Norma Zakiyatun",
+      "Karel Trisnanto Utomo"
+    ],
+    "link": "https://www.instagram.com/p/DYy3ogTGgua/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 93,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Lolos Pendanaan PKM-KC Tingkat Nasional",
+    "description": "Tim mahasiswa D4 Teknik Informatika berhasil lolos pendanaan Kemendiktisaintek tingkat nasional dalam skema PKM-KC dengan karya berjudul JAGATAMA: Aplikasi Deteksi Potensi Penyakit Mata dan Treatment Akupresur Mata. Dosen Pembimbing: Dwi Intan Afidah, S.T., M.Kom.",
+    "icon": "emoji_events",
+    "students": [
+      "Ahmat Fauzi",
+      "Resta Sabrina",
+      "M. Iqbal Saputra",
+      "Rhiki Sulistyo"
+    ],
+    "link": "https://www.instagram.com/p/DYy3ICEmlbo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 94,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Juara 2 Web Development",
+    "description": "Tim mahasiswa D4 Teknik Informatika berhasil meraih Juara 2 dalam kompetisi Web Development pada ajang JKB FEST 2026 yang diselenggarakan di Politeknik Negeri Cilacap.",
+    "icon": "emoji_events",
+    "students": [
+      "Nur Aji Purnomo",
+      "Arya Fahrezi Amarully"
+    ],
+    "link": "https://www.instagram.com/p/DYy20SBmgWG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 95,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Lolos Skema Insentif PKM-GFT",
+    "description": "Tim mahasiswa berhasil lolos skema insentif PKM-GFT dengan karya berjudul SMART CILCULAR: Infrastruktur Digital Penjemputan Limbah Organik Zero-Rot Guna Mendukung Ekonomi Sirkular Program Makanan Gizi Gratis. Dosen Pembimbing: Dwi Intan Afidah, S.T., M.Kom.",
+    "icon": "emoji_events",
+    "students": [
+      "Muzaqi Nur Arifin",
+      "M. Fairul Amri",
+      "Nabilla Rizky Dewanti",
+      "A. Baihaqi Mustofa",
+      "M. Ferdian Maulana Tempati"
+    ],
+    "link": "https://www.instagram.com/p/DYy2HHgmmdl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 96,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Juara 1 Krenova Kabupaten Tegal 2026",
+    "description": "Tim mahasiswa berhasil meraih Juara 1 dalam ajang Krenova Kabupaten Tegal 2026 yang diselenggarakan oleh Badan Perencanaan Pembangunan Riset dan Inovasi.",
+    "icon": "emoji_events",
+    "students": [
+      "Putra Nur Izzatul Ramadhan",
+      "Yusuf Dwi Saputra",
+      "Bima Sunu Aryasatya",
+      "Geraldi Novalino Putra"
+    ],
+    "link": "https://www.instagram.com/p/DYExKPgmrBC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 97,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Diterima sebagai Google Student Ambassador",
+    "description": "Arya Fahrezi Amarully, mahasiswa D4 Teknik Informatika, berhasil terpilih dan diterima sebagai Google Student Ambassador.",
+    "icon": "emoji_events",
+    "students": [
+      "Arya Fahrezi Amarully"
+    ],
+    "link": "https://www.instagram.com/p/DXddZXZGnRp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 98,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Juara 2 FICPACT CUP 2026 Web Development",
+    "description": "Ahmat Fauzi, mahasiswa D4 Teknik Informatika, berhasil meraih Juara 2 dalam kompetisi Web Development pada ajang FICPACT CUP 2026 yang diselenggarakan di Universitas Katolik Soegijapranata Semarang.",
+    "icon": "emoji_events",
+    "students": [
+      "Ahmat Fauzi"
+    ],
+    "link": "https://www.instagram.com/p/DXalijTGrs_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  },
+  {
+    "id": 99,
+    "category": "mahasiswa",
+    "year": "2026",
+    "title": "Diterima sebagai Campus Ambassador Hackviser (UK/London)",
+    "description": "Rafi Faiz Amalta, mahasiswa D4 Teknik Informatika, berhasil terpilih dan diterima sebagai Campus Ambassador Hackviser (UK/London) dalam bidang Edukasi Cybersecurity dan Ethical Hacking.",
+    "icon": "emoji_events",
+    "students": [
+      "Rafi Faiz Amalta"
+    ],
+    "link": "https://www.instagram.com/p/DVxNoHek6Zk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  }
+]

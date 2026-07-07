@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Bagaimana akreditasi Teknik Informatika UHN?",
+    "answer": "Program Studi Sarjana Terapan Teknik Informatika Universitas Harkat Negeri telah resmi terakreditasi dengan peringkat <strong>Baik Sekali</strong> oleh Lembaga Akreditasi Mandiri Informatika dan Komputer (LAM INFOKOM)."
+  },
+  {
+    "id": 2,
+    "question": "Apakah ada beasiswa yang tersedia?",
+    "answer": "Tersedia berbagai pilihan beasiswa menarik untuk mahasiswa baru maupun aktif. Informasi detail mengenai syarat dan alur pendaftaran dapat Anda cek di situs resmi <a href=\"https://pmb.harkatnegeri.ac.id/\" target=\"_blank\" class=\"text-primary hover:underline font-semibold\">PMB UHN</a> atau melalui akun Instagram <a href=\"https://www.instagram.com/daftar_harkatnegeri/\" target=\"_blank\" class=\"text-primary hover:underline font-semibold\">@daftar_harkatnegeri</a>."
+  },
+  {
+    "id": 3,
+    "question": "Berapa lama durasi kuliah dan gelarnya?",
+    "answer": "Program ini ditempuh dalam waktu 4 tahun (8 semester) dengan gelar kelulusan <strong>Sarjana Terapan Komputer (S.Tr.Kom)</strong>. Gelar ini memiliki kesetaraan penuh dengan lulusan sarjana akademik (S.Kom)."
+  },
+  {
+    "id": 4,
+    "question": "Bagaimana prospek karier lulusan?",
+    "answer": "Lulusan dibekali keahlian praktis tinggi untuk berkarier sebagai Software Engineer (Web/Mobile Developer), Data Scientist, DevOps Engineer, Cyber Security Specialist, Database Administrator, hingga IT Consultant."
+  },
+  {
+    "id": 5,
+    "question": "Apakah kurikulum mengikuti standar industri?",
+    "answer": "Ya, kurikulum prodi dirancang bersama mitra industri terkemuka serta mengintegrasikan pelatihan sertifikasi internasional berstandar global (seperti Cisco, Oracle, Google Cloud, dan RedHat) langsung ke dalam modul pembelajaran."
+  }
+]
