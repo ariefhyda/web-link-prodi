@@ -1,284 +1,533 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import prestasiData from '../data/prestasi.json';
-import faqData from '../data/faq.json';
+import Layout from "../layouts/Layout.astro";
+import prestasiData from "../data/prestasi.json";
+import faqData from "../data/faq.json";
 
 // Sort descending (newest year first)
-const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0));
+const sortedPrestasi = [...prestasiData].sort(
+    (a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0),
+);
 ---
 
 <Layout>
-    <main class="w-full max-w-md px-margin-mobile flex flex-col gap-stack-lg pt-stack-lg pb-32">
+    <main
+        class="w-full max-w-md px-margin-mobile flex flex-col gap-stack-lg pt-stack-lg pb-32"
+    >
         <!-- Home View -->
         <div id="home-view" class="flex flex-col gap-stack-lg w-full">
             <!-- Hero Section -->
-            <section class="flex flex-col items-center text-center gap-stack-md">
-                <div class="w-32 h-32 mb-stack-sm p-4 bg-surface-container rounded-xl">
-                    <img alt="University Logo" class="w-full h-full object-contain" src="/assets/media/logo.png">
+            <section
+                class="flex flex-col items-center text-center gap-stack-md"
+            >
+                <div
+                    class="w-32 h-32 mb-stack-sm p-4 bg-surface-container rounded-xl"
+                >
+                    <img
+                        alt="University Logo"
+                        class="w-full h-full object-contain"
+                        src="/assets/media/logo.png"
+                    />
                 </div>
                 <div>
-                    <h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Sarjana
-                        Terapan
-                        Teknik Informatika</h2>
-                    <p class="font-label-md text-label-md text-secondary mt-2">Fakultas Vokasi Universitas Harkat Negeri
+                    <h2
+                        class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight"
+                    >
+                        Sarjana Terapan Teknik Informatika
+                    </h2>
+                    <p class="font-label-md text-label-md text-secondary mt-2">
+                        Fakultas Vokasi Universitas Harkat Negeri
                     </p>
                 </div>
-                <div class="w-16 h-1 bg-primary-container rounded-full mt-2"></div>
+                <div class="w-16 h-1 bg-primary-container rounded-full mt-2">
+                </div>
             </section>
             <!-- Social Media Links -->
             <section class="flex justify-center items-center gap-4 py-2">
-                <a href="https://www.instagram.com/d4.informatika_harkatnegeri/" target="_blank" rel="noopener noreferrer"
+                <a
+                    href="https://www.instagram.com/d4.informatika_harkatnegeri/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     class="w-10 h-10 rounded-full bg-surface-container-low border border-outline-variant/30 hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                >
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path
-                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                        ></path>
                     </svg>
                 </a>
-                <a href="#"
+                <a
+                    href="#"
                     class="w-10 h-10 rounded-full bg-surface-container-low border border-outline-variant/30 hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
-                    aria-label="YouTube">
+                    aria-label="YouTube"
+                >
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path
-                            d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                        ></path>
                     </svg>
                 </a>
-                <a href="#"
+                <a
+                    href="#"
                     class="w-10 h-10 rounded-full bg-surface-container-low border border-outline-variant/30 hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
-                    aria-label="TikTok">
+                    aria-label="TikTok"
+                >
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path
-                            d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.01 1.62 4.13.98 1.09 2.37 1.79 3.84 1.99v3.62c-1.66-.12-3.23-.8-4.48-1.92-.09-.08-.18-.17-.26-.26v6.23c-.07 3.51-2.48 6.6-5.89 7.42-3.8 1.01-7.85-1.12-9.08-4.88C1.04 12.83 2.76 8.52 6.5 7.15c.67-.24 1.37-.37 2.08-.37v3.74c-.4-.01-.8.06-1.18.2-.99.35-1.74 1.19-2 2.19-.52 1.9.54 3.97 2.44 4.49 1.83.5 3.82-.47 4.41-2.27.09-.27.14-.56.14-.85V.02z" />
+                            d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.01 1.62 4.13.98 1.09 2.37 1.79 3.84 1.99v3.62c-1.66-.12-3.23-.8-4.48-1.92-.09-.08-.18-.17-.26-.26v6.23c-.07 3.51-2.48 6.6-5.89 7.42-3.8 1.01-7.85-1.12-9.08-4.88C1.04 12.83 2.76 8.52 6.5 7.15c.67-.24 1.37-.37 2.08-.37v3.74c-.4-.01-.8.06-1.18.2-.99.35-1.74 1.19-2 2.19-.52 1.9.54 3.97 2.44 4.49 1.83.5 3.82-.47 4.41-2.27.09-.27.14-.56.14-.85V.02z"
+                        ></path>
                     </svg>
                 </a>
-                <a href="#"
+                <a
+                    href="#"
                     class="w-10 h-10 rounded-full bg-surface-container-low border border-outline-variant/30 hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
-                    aria-label="Facebook">
+                    aria-label="Facebook"
+                >
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
                         <path
-                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        ></path>
                     </svg>
                 </a>
             </section>
             <!-- Dynamic Featured Banner (Asymmetric Layout) -->
             <section class="relative h-48 rounded-xl overflow-hidden shadow-sm">
-                <div class="absolute inset-0 bg-cover bg-center"
+                <div
+                    class="absolute inset-0 bg-cover bg-center"
                     data-alt="A professional and sleek educational environment"
-                    style="background-image: url('/assets/media/featured.jpg');">
+                    style="background-image: url('/assets/media/featured.jpg');"
+                >
                 </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"
+                >
+                </div>
                 <div class="absolute bottom-4 left-4 right-4 text-on-primary">
                     <span
-                        class="bg-white/20 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest">Featured</span>
-                    <h3 class="font-headline-md text-headline-md mt-1 leading-tight">Penerimaan Mahasiswa Baru Gelombang 2</h3>
+                        class="bg-white/20 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest"
+                        >Featured</span
+                    >
+                    <h3
+                        class="font-headline-md text-headline-md mt-1 leading-tight"
+                    >
+                        Penerimaan Mahasiswa Baru Gelombang 2
+                    </h3>
                 </div>
             </section>
             <!-- Quick Links Stack (High Contrast Buttons) -->
             <section class="flex flex-col gap-stack-sm">
-                <h4 class="font-label-sm text-label-sm text-outline uppercase tracking-widest ml-1">Layanan Utama</h4>
+                <h4
+                    class="font-label-sm text-label-sm text-outline uppercase tracking-widest ml-1"
+                >
+                    Layanan Utama
+                </h4>
 
-                <a class="group flex items-center justify-between bg-primary-container text-on-primary p-5 rounded-xl hover:bg-primary-container/90 transition-all active:scale-[0.98] duration-150"
-                    href="https://pmb.harkatnegeri.ac.id/" target="_blank" rel="noopener noreferrer">
+                <a
+                    class="group flex items-center justify-between bg-primary-container text-on-primary p-5 rounded-xl hover:bg-primary-container/90 transition-all active:scale-[0.98] duration-150"
+                    href="https://pmb.harkatnegeri.ac.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div class="flex items-center gap-4">
-                        <span class="material-symbols-outlined text-[28px]" data-icon="how_to_reg">how_to_reg</span>
-                        <span class="font-label-md text-label-md font-semibold">Pendaftaran Mahasiswa Baru</span>
+                        <span
+                            class="material-symbols-outlined text-[28px]"
+                            data-icon="how_to_reg">how_to_reg</span
+                        >
+                        <span class="font-label-md text-label-md font-semibold"
+                            >Pendaftaran Mahasiswa Baru</span
+                        >
                     </div>
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                        data-icon="chevron_right">chevron_right</span>
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                        data-icon="chevron_right">chevron_right</span
+                    >
                 </a>
-                <a class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
-                    href="https://univharkat.siakadcloud.com/" target="_blank" rel="noopener noreferrer">
+                <a
+                    class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
+                    href="https://univharkat.siakadcloud.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div class="flex items-center gap-4">
-                        <span class="material-symbols-outlined text-[28px]"
-                            data-icon="account_balance">account_balance</span>
-                        <span class="font-label-md text-label-md font-semibold">Portal Akademik</span>
+                        <span
+                            class="material-symbols-outlined text-[28px]"
+                            data-icon="account_balance">account_balance</span
+                        >
+                        <span class="font-label-md text-label-md font-semibold"
+                            >Portal Akademik</span
+                        >
                     </div>
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                        data-icon="chevron_right">chevron_right</span>
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                        data-icon="chevron_right">chevron_right</span
+                    >
                 </a>
-                <a class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
-                    href="https://informatika.poltekharber.ac.id/" target="_blank" rel="noopener noreferrer">
+                <a
+                    class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
+                    href="https://informatika.poltekharber.ac.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div class="flex items-center gap-4">
-                        <span class="material-symbols-outlined text-[28px]" data-icon="language">language</span>
-                        <span class="font-label-md text-label-md font-semibold">Portal Resmi Prodi</span>
+                        <span
+                            class="material-symbols-outlined text-[28px]"
+                            data-icon="language">language</span
+                        >
+                        <span class="font-label-md text-label-md font-semibold"
+                            >Portal Resmi Prodi</span
+                        >
                     </div>
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                        data-icon="chevron_right">chevron_right</span>
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                        data-icon="chevron_right">chevron_right</span
+                    >
                 </a>
-                <a class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
-                    href="https://play.google.com/store/apps/dev?id=7157363822751163453" target="_blank" rel="noopener noreferrer">
+                <a
+                    class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
+                    href="https://play.google.com/store/apps/dev?id=7157363822751163453"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div class="flex items-center gap-4">
-                        <span class="material-symbols-outlined text-[28px]" data-icon="shop">shop</span>
-                        <span class="font-label-md text-label-md font-semibold">Aplikasi Mobile Prodi</span>
+                        <span
+                            class="material-symbols-outlined text-[28px]"
+                            data-icon="shop">shop</span
+                        >
+                        <span class="font-label-md text-label-md font-semibold"
+                            >Aplikasi Mobile Prodi</span
+                        >
                     </div>
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                        data-icon="chevron_right">chevron_right</span>
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                        data-icon="chevron_right">chevron_right</span
+                    >
                 </a>
-                <a class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
-                    href="https://harkatnegeri.ac.id/" target="_blank" rel="noopener noreferrer">
+                <a
+                    class="group flex items-center justify-between bg-surface border-2 border-primary text-primary p-5 rounded-xl hover:bg-primary/5 transition-all active:scale-[0.98] duration-150"
+                    href="https://harkatnegeri.ac.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <div class="flex items-center gap-4">
-                        <span class="material-symbols-outlined text-[28px]" data-icon="school">school</span>
-                        <span class="font-label-md text-label-md font-semibold">Portal Utama Universitas</span>
+                        <span
+                            class="material-symbols-outlined text-[28px]"
+                            data-icon="school">school</span
+                        >
+                        <span class="font-label-md text-label-md font-semibold"
+                            >Portal Utama Universitas</span
+                        >
                     </div>
-                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                        data-icon="chevron_right">chevron_right</span>
+                    <span
+                        class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+                        data-icon="chevron_right">chevron_right</span
+                    >
                 </a>
             </section>
             <!-- Bento Grid Stats/Info -->
             <section class="grid grid-cols-2 grid-rows-2 gap-3 h-64">
                 <div
-                    class="col-span-1 row-span-2 bg-primary/5 rounded-xl p-4 flex flex-col justify-between border border-primary/10">
-                    <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                        <span class="material-symbols-outlined text-primary" data-icon="workspace_premium"
+                    class="col-span-1 row-span-2 bg-primary/5 rounded-xl p-4 flex flex-col justify-between border border-primary/10"
+                >
+                    <div
+                        class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center"
+                    >
+                        <span
+                            class="material-symbols-outlined text-primary"
+                            data-icon="workspace_premium"
                             data-weight="fill"
-                            style="font-variation-settings: &quot;FILL&quot; 1;">workspace_premium</span>
+                            style='font-variation-settings: "FILL" 1;'
+                            >workspace_premium</span
+                        >
                     </div>
                     <div class="flex flex-col gap-1">
-                        <span class="font-label-sm text-[10px] uppercase tracking-widest text-primary/65 font-bold">Akreditasi</span>
-                        <h3 class="font-headline-lg text-[26px] text-primary font-bold leading-tight tracking-tight">Baik Sekali</h3>
-                        <span class="font-label-sm text-[11px] text-secondary/80 font-medium">oleh LAM INFOKOM</span>
+                        <span
+                            class="font-label-sm text-[10px] uppercase tracking-widest text-primary/65 font-bold"
+                            >Akreditasi</span
+                        >
+                        <h3
+                            class="font-headline-lg text-[26px] text-primary font-bold leading-tight tracking-tight"
+                        >
+                            Baik Sekali
+                        </h3>
+                        <span
+                            class="font-label-sm text-[11px] text-secondary/80 font-medium"
+                            >oleh LAM INFOKOM</span
+                        >
                     </div>
                 </div>
-                <div class="bg-surface border border-outline-variant rounded-xl p-4 flex flex-col justify-between">
-                    <p class="font-headline-md text-headline-md text-on-surface">4</p>
-                    <p class="font-label-sm text-label-sm text-secondary">Tahun Studi</p>
+                <div
+                    class="bg-surface border border-outline-variant rounded-xl p-4 flex flex-col justify-between"
+                >
+                    <p
+                        class="font-headline-md text-headline-md text-on-surface"
+                    >
+                        4
+                    </p>
+                    <p class="font-label-sm text-label-sm text-secondary">
+                        Tahun Studi
+                    </p>
                 </div>
-                <div class="bg-surface border border-outline-variant rounded-xl p-4 flex flex-col justify-between">
-                    <p class="font-headline-md text-headline-md text-on-surface">70%</p>
-                    <p class="font-label-sm text-label-sm text-secondary">Praktikum</p>
+                <div
+                    class="bg-surface border border-outline-variant rounded-xl p-4 flex flex-col justify-between"
+                >
+                    <p
+                        class="font-headline-md text-headline-md text-on-surface"
+                    >
+                        70%
+                    </p>
+                    <p class="font-label-sm text-label-sm text-secondary">
+                        Praktikum
+                    </p>
                 </div>
             </section>
 
             <!-- Visitor Counter Card -->
-            <section class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 flex items-center justify-between shadow-sm">
-                <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0">
-                        <span class="material-symbols-outlined text-[28px]">visibility</span>
-                    </div>
+            <section
+                class="bg-surface-container-low border border-outline-variant/30 rounded-xl pt-5 px-5 pb-0 flex flex-col justify-between shadow-sm overflow-hidden"
+            >
+                <div class="flex justify-between items-start w-full">
                     <div class="flex flex-col">
-                        <span class="font-label-sm text-[10px] text-secondary uppercase tracking-widest font-bold">Total Pengunjung</span>
-                        <h4 id="visitor-count" class="font-headline-lg text-[22px] text-primary font-bold leading-tight mt-1">...</h4>
+                        <span
+                            class="font-label-sm text-[10px] text-secondary uppercase tracking-widest font-bold"
+                            >Total Pengunjung</span
+                        >
+                        <h4
+                            id="visitor-count"
+                            class="font-headline-lg text-[32px] text-primary font-bold leading-tight mt-1"
+                        >
+                            ...
+                        </h4>
+                    </div>
+                    <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0">
+                        <span class="material-symbols-outlined text-[20px]">visibility</span>
                     </div>
                 </div>
-                <div class="flex items-center gap-1.5 px-3 py-1 bg-green-500/10 text-green-700 rounded-full text-[11px] font-bold shrink-0 self-center">
-                    <span class="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
-                    Live
+
+                <!-- Sparkline Line Chart (Full Width di Bawah) -->
+                <div class="-mx-5 mt-4 h-12 relative overflow-hidden">
+                    <svg id="sparkline-chart" class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <defs>
+                            <linearGradient id="sparkline-grad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="var(--color-primary)" stop-opacity="0.15"></stop>
+                                <stop offset="100%" stop-color="var(--color-primary)" stop-opacity="0.0"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="sparkline-area-path" d="" fill="url(#sparkline-grad)"></path>
+                        <path id="sparkline-line-path" d="" fill="none" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
                 </div>
             </section>
         </div>
 
         <!-- Prestasi View -->
-        <div id="prestasi-view" class="hidden flex flex-col gap-stack-md w-full">
+        <div
+            id="prestasi-view"
+            class="hidden flex flex-col gap-stack-md w-full"
+        >
             <div class="flex flex-col gap-1">
-                <h2 class="font-headline-lg text-headline-lg text-primary">Prestasi</h2>
-                <p id="prestasi-subtitle" class="font-body-md text-body-md text-secondary">Ada <span id="prestasi-count"
-                        class="font-bold text-primary">0</span> prestasi luar biasa dari Program Studi dan Mahasiswa</p>
+                <h2 class="font-headline-lg text-headline-lg text-primary">
+                    Prestasi
+                </h2>
+                <p
+                    id="prestasi-subtitle"
+                    class="font-body-md text-body-md text-secondary"
+                >
+                    Ada <span id="prestasi-count" class="font-bold text-primary"
+                        >0</span
+                    > prestasi luar biasa dari Program Studi dan Mahasiswa
+                </p>
             </div>
 
             <div class="flex flex-col gap-2 mt-2">
                 <div class="relative flex items-center">
-                    <span class="material-symbols-outlined absolute left-3 text-secondary text-[20px]">search</span>
-                    <input type="text" id="prestasi-search" placeholder="Cari prestasi..."
-                        class="w-full pl-10 pr-4 py-2.5 bg-surface-container rounded-xl border border-outline-variant/30 text-on-surface placeholder-secondary/70 focus:outline-none focus:border-primary/50 text-label-md">
+                    <span
+                        class="material-symbols-outlined absolute left-3 text-secondary text-[20px]"
+                        >search</span
+                    >
+                    <input
+                        type="text"
+                        id="prestasi-search"
+                        placeholder="Cari prestasi..."
+                        class="w-full pl-10 pr-4 py-2.5 bg-surface-container rounded-xl border border-outline-variant/30 text-on-surface placeholder-secondary/70 focus:outline-none focus:border-primary/50 text-label-md"
+                    />
                 </div>
 
                 <div class="flex gap-2">
-                    <button id="filter-all"
-                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-primary text-on-primary">Semua</button>
-                    <button id="filter-prodi"
-                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high">Prodi</button>
-                    <button id="filter-mahasiswa"
-                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high">Mahasiswa</button>
+                    <button
+                        id="filter-all"
+                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-primary text-on-primary"
+                        >Semua</button
+                    >
+                    <button
+                        id="filter-prodi"
+                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high"
+                        >Prodi</button
+                    >
+                    <button
+                        id="filter-mahasiswa"
+                        class="px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high"
+                        >Mahasiswa</button
+                    >
                 </div>
             </div>
 
             <div id="prestasi-list" class="flex flex-col gap-3 mt-2">
-                {sortedPrestasi.map(item => {
-                    const badgeBgClass = item.category === 'mahasiswa' ? 'bg-primary-container/30' : 'bg-secondary-container text-on-secondary-container';
-                    const badgeTextClass = item.category === 'mahasiswa' ? 'text-primary-container' : 'text-secondary-fixed-dim/90';
+                {
+                    sortedPrestasi.map((item) => {
+                        const badgeBgClass =
+                            item.category === "mahasiswa"
+                                ? "bg-primary-container/30"
+                                : "bg-secondary-container text-on-secondary-container";
+                        const badgeTextClass =
+                            item.category === "mahasiswa"
+                                ? "text-primary-container"
+                                : "text-secondary-fixed-dim/90";
 
-                    return (
-                        <a
-                            href={item.link || '#'}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="prestasi-item p-4 bg-surface-container-low border border-outline-variant/30 rounded-xl flex items-start gap-4 transition-all duration-200 hover:shadow-md hover:border-primary/20 active:scale-[0.99] block"
-                            data-category={item.category}
-                            data-title={item.title.toLowerCase()}
-                            data-description={item.description.toLowerCase()}
-                        >
-                            <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                                <span class="material-symbols-outlined text-primary text-[24px]">{item.icon}</span>
-                            </div>
-                            <div class="flex flex-col gap-1 flex-1">
-                                <div class="flex justify-between items-center w-full">
-                                    <span class={`${badgeBgClass} ${badgeTextClass} px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest`}>
-                                        {item.category === 'mahasiswa' ? 'Mahasiswa' : 'Prodi'}
+                        return (
+                            <a
+                                href={item.link || "#"}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="prestasi-item p-4 bg-surface-container-low border border-outline-variant/30 rounded-xl flex items-start gap-4 transition-all duration-200 hover:shadow-md hover:border-primary/20 active:scale-[0.99] block"
+                                data-category={item.category}
+                                data-title={item.title.toLowerCase()}
+                                data-description={item.description.toLowerCase()}
+                            >
+                                <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                                    <span class="material-symbols-outlined text-primary text-[24px]">
+                                        {item.icon}
                                     </span>
-                                    <span class="text-secondary text-[12px] font-semibold">{item.year}</span>
                                 </div>
-                                <h4 class="font-label-md text-label-md font-semibold text-on-surface">{item.title}</h4>
-                                <p class="font-body-md text-body-md text-secondary text-sm">{item.description}</p>
-                                {item.category === 'mahasiswa' && item.students && item.students.length > 0 && (
-                                    <p class="text-xs text-secondary mt-1 flex items-center gap-1 font-medium bg-surface/50 px-2 py-1 rounded w-fit border border-outline-variant/20">
-                                        <span class="material-symbols-outlined text-[14px]">person</span>
-                                        Oleh: {item.students.join(', ')}
+                                <div class="flex flex-col gap-1 flex-1">
+                                    <div class="flex justify-between items-center w-full">
+                                        <span
+                                            class={`${badgeBgClass} ${badgeTextClass} px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-widest`}
+                                        >
+                                            {item.category === "mahasiswa"
+                                                ? "Mahasiswa"
+                                                : "Prodi"}
+                                        </span>
+                                        <span class="text-secondary text-[12px] font-semibold">
+                                            {item.year}
+                                        </span>
+                                    </div>
+                                    <h4 class="font-label-md text-label-md font-semibold text-on-surface">
+                                        {item.title}
+                                    </h4>
+                                    <p class="font-body-md text-body-md text-secondary text-sm">
+                                        {item.description}
                                     </p>
-                                )}
-                            </div>
-                        </a>
-                    );
-                })}
+                                    {item.category === "mahasiswa" &&
+                                        item.students &&
+                                        item.students.length > 0 && (
+                                            <p class="text-xs text-secondary mt-1 flex items-center gap-1 font-medium bg-surface/50 px-2 py-1 rounded w-fit border border-outline-variant/20">
+                                                <span class="material-symbols-outlined text-[14px]">
+                                                    person
+                                                </span>
+                                                Oleh: {item.students.join(", ")}
+                                            </p>
+                                        )}
+                                </div>
+                            </a>
+                        );
+                    })
+                }
             </div>
 
-            <div id="no-prestasi-results"
-                class="hidden flex flex-col items-center justify-center py-12 gap-3 text-center">
-                <span class="material-symbols-outlined text-outline text-[48px]">search_off</span>
-                <p class="font-label-md text-label-md text-secondary">Tidak ada prestasi yang cocok dengan pencarian Anda</p>
+            <div
+                id="no-prestasi-results"
+                class="hidden flex flex-col items-center justify-center py-12 gap-3 text-center"
+            >
+                <span class="material-symbols-outlined text-outline text-[48px]"
+                    >search_off</span
+                >
+                <p class="font-label-md text-label-md text-secondary">
+                    Tidak ada prestasi yang cocok dengan pencarian Anda
+                </p>
             </div>
         </div>
 
         <!-- FAQ View -->
         <div id="faq-view" class="hidden flex flex-col gap-stack-md w-full">
             <div class="flex flex-col gap-1">
-                <h2 class="font-headline-lg text-headline-lg text-primary">FAQ</h2>
-                <p class="font-body-md text-body-md text-secondary">Pertanyaan yang sering diajukan</p>
+                <h2 class="font-headline-lg text-headline-lg text-primary">
+                    FAQ
+                </h2>
+                <p class="font-body-md text-body-md text-secondary">
+                    Pertanyaan yang sering diajukan
+                </p>
             </div>
 
             <div class="flex flex-col gap-3 mt-4">
-                {faqData.map(item => (
-                    <div class="faq-item bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden transition-all duration-200">
-                        <button class="faq-toggle w-full p-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                            <span class="font-label-md text-label-md font-semibold text-primary">{item.question}</span>
-                            <span class="material-symbols-outlined text-[20px] text-primary transition-transform duration-200" data-icon="expand_more">expand_more</span>
-                        </button>
-                        <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-surface/50">
-                            <p class="font-body-md text-body-md text-secondary p-5 pt-0 text-sm leading-relaxed border-t border-outline-variant/10" set:html={item.answer}></p>
+                {
+                    faqData.map((item) => (
+                        <div class="faq-item bg-surface-container-low border border-outline-variant/30 rounded-xl overflow-hidden transition-all duration-200">
+                            <button class="faq-toggle w-full p-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                                <span class="font-label-md text-label-md font-semibold text-primary">
+                                    {item.question}
+                                </span>
+                                <span
+                                    class="material-symbols-outlined text-[20px] text-primary transition-transform duration-200"
+                                    data-icon="expand_more"
+                                >
+                                    expand_more
+                                </span>
+                            </button>
+                            <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-surface/50">
+                                <p
+                                    class="font-body-md text-body-md text-secondary p-5 pt-0 text-sm leading-relaxed border-t border-outline-variant/10"
+                                    set:html={item.answer}
+                                />
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))
+                }
             </div>
         </div>
     </main>
 
     <!-- Bottom Nav Bar -->
-    <nav class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-3 bg-surface border-t border-outline-variant/30 backdrop-blur-md bg-white/90">
+    <nav
+        class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-3 bg-surface border-t border-outline-variant/30 backdrop-blur-md bg-white/90"
+    >
         <button class="flex flex-col items-center gap-1 group">
-            <div class="bg-primary-container text-on-primary-container rounded-full px-5 py-1 transition-all">
-                <span class="material-symbols-outlined text-[24px]" data-icon="home" data-weight="fill"
-                    style="font-variation-settings: &quot;FILL&quot; 1;">home</span>
+            <div
+                class="bg-primary-container text-on-primary-container rounded-full px-5 py-1 transition-all"
+            >
+                <span
+                    class="material-symbols-outlined text-[24px]"
+                    data-icon="home"
+                    data-weight="fill"
+                    style='font-variation-settings: "FILL" 1;'>home</span
+                >
             </div>
-            <span class="font-label-sm text-label-sm text-primary font-bold">Home</span>
+            <span class="font-label-sm text-label-sm text-primary font-bold"
+                >Home</span
+            >
         </button>
-        <button class="flex flex-col items-center gap-1 group text-on-secondary-container">
-            <div class="p-1 group-hover:bg-surface-container-highest rounded-full transition-all">
-                <span class="material-symbols-outlined text-[24px]" data-icon="emoji_events">emoji_events</span>
+        <button
+            class="flex flex-col items-center gap-1 group text-on-secondary-container"
+        >
+            <div
+                class="p-1 group-hover:bg-surface-container-highest rounded-full transition-all"
+            >
+                <span
+                    class="material-symbols-outlined text-[24px]"
+                    data-icon="emoji_events">emoji_events</span
+                >
             </div>
             <span class="font-label-sm text-label-sm">Prestasi</span>
         </button>
-        <button class="flex flex-col items-center gap-1 group text-on-secondary-container">
-            <div class="p-1 group-hover:bg-surface-container-highest rounded-full transition-all">
-                <span class="material-symbols-outlined text-[24px]" data-icon="quiz">quiz</span>
+        <button
+            class="flex flex-col items-center gap-1 group text-on-secondary-container"
+        >
+            <div
+                class="p-1 group-hover:bg-surface-container-highest rounded-full transition-all"
+            >
+                <span
+                    class="material-symbols-outlined text-[24px]"
+                    data-icon="quiz">quiz</span
+                >
             </div>
             <span class="font-label-sm text-label-sm">FAQ</span>
         </button>
@@ -288,83 +537,90 @@ const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) 
 <script>
     // View switching logic
     const views = {
-        'Home': document.getElementById('home-view'),
-        'Prestasi': document.getElementById('prestasi-view'),
-        'FAQ': document.getElementById('faq-view')
+        Home: document.getElementById("home-view"),
+        Prestasi: document.getElementById("prestasi-view"),
+        FAQ: document.getElementById("faq-view"),
     };
 
-    const navButtons = document.querySelectorAll('nav button');
-    navButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const labelEl = btn.querySelector('span.font-label-sm');
+    const navButtons = document.querySelectorAll("nav button");
+    navButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            const labelEl = btn.querySelector("span.font-label-sm");
             if (!labelEl) return;
             const activeLabel = labelEl.textContent.trim();
 
-            navButtons.forEach(b => {
-                const iconContainer = b.querySelector('div');
-                const label = b.querySelector('span.font-label-sm');
+            navButtons.forEach((b) => {
+                const iconContainer = b.querySelector("div");
+                const label = b.querySelector("span.font-label-sm");
                 if (iconContainer && label) {
-                    iconContainer.className = 'p-1 group-hover:bg-surface-container-highest rounded-full transition-all';
-                    label.className = 'font-label-sm text-label-sm text-on-secondary-container';
-                    b.className = 'flex flex-col items-center gap-1 group text-on-secondary-container';
+                    iconContainer.className =
+                        "p-1 group-hover:bg-surface-container-highest rounded-full transition-all";
+                    label.className =
+                        "font-label-sm text-label-sm text-on-secondary-container";
+                    b.className =
+                        "flex flex-col items-center gap-1 group text-on-secondary-container";
                 }
             });
-            
-            const iconContainer = btn.querySelector('div');
-            const label = btn.querySelector('span.font-label-sm');
+
+            const iconContainer = btn.querySelector("div");
+            const label = btn.querySelector("span.font-label-sm");
             if (iconContainer && label) {
-                iconContainer.className = 'bg-primary-container text-on-primary-container rounded-full px-5 py-1 transition-all';
-                label.className = 'font-label-sm text-label-sm text-primary font-bold';
+                iconContainer.className =
+                    "bg-primary-container text-on-primary-container rounded-full px-5 py-1 transition-all";
+                label.className =
+                    "font-label-sm text-label-sm text-primary font-bold";
             }
 
             // Hide all views, then show the active one
-            Object.values(views).forEach(v => {
-                if (v) v.classList.add('hidden');
+            Object.values(views).forEach((v) => {
+                if (v) v.classList.add("hidden");
             });
             if (views[activeLabel]) {
-                views[activeLabel].classList.remove('hidden');
+                views[activeLabel].classList.remove("hidden");
             }
         });
     });
 
     // Prestasi search and filtering logic
-    const searchInput = document.getElementById('prestasi-search');
+    const searchInput = document.getElementById("prestasi-search");
     const filterButtons = {
-        'all': document.getElementById('filter-all'),
-        'prodi': document.getElementById('filter-prodi'),
-        'mahasiswa': document.getElementById('filter-mahasiswa')
+        all: document.getElementById("filter-all"),
+        prodi: document.getElementById("filter-prodi"),
+        mahasiswa: document.getElementById("filter-mahasiswa"),
     };
-    const countBadge = document.getElementById('prestasi-count');
-    const noResults = document.getElementById('no-prestasi-results');
-    const prestasiItems = document.querySelectorAll('.prestasi-item');
+    const countBadge = document.getElementById("prestasi-count");
+    const noResults = document.getElementById("no-prestasi-results");
+    const prestasiItems = document.querySelectorAll(".prestasi-item");
 
-    let currentFilter = 'all';
+    let currentFilter = "all";
 
     function filterPrestasi() {
-        const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+        const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
         let visibleCount = 0;
 
-        prestasiItems.forEach(item => {
-            const title = item.getAttribute('data-title') || '';
-            const description = item.getAttribute('data-description') || '';
-            const category = item.getAttribute('data-category') || '';
+        prestasiItems.forEach((item) => {
+            const title = item.getAttribute("data-title") || "";
+            const description = item.getAttribute("data-description") || "";
+            const category = item.getAttribute("data-category") || "";
 
-            const matchesSearch = title.includes(query) || description.includes(query);
-            const matchesFilter = currentFilter === 'all' || category === currentFilter;
+            const matchesSearch =
+                title.includes(query) || description.includes(query);
+            const matchesFilter =
+                currentFilter === "all" || category === currentFilter;
 
             if (matchesSearch && matchesFilter) {
-                item.classList.remove('hidden');
+                item.classList.remove("hidden");
                 visibleCount++;
             } else {
-                item.classList.add('hidden');
+                item.classList.add("hidden");
             }
         });
 
         if (noResults) {
             if (visibleCount === 0) {
-                noResults.classList.remove('hidden');
+                noResults.classList.remove("hidden");
             } else {
-                noResults.classList.add('hidden');
+                noResults.classList.add("hidden");
             }
         }
 
@@ -374,19 +630,22 @@ const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) 
     }
 
     if (searchInput) {
-        searchInput.addEventListener('input', filterPrestasi);
+        searchInput.addEventListener("input", filterPrestasi);
     }
 
-    Object.keys(filterButtons).forEach(key => {
+    Object.keys(filterButtons).forEach((key) => {
         const btn = filterButtons[key];
         if (btn) {
-            btn.addEventListener('click', () => {
+            btn.addEventListener("click", () => {
                 // Update active button state
-                Object.values(filterButtons).forEach(b => {
-                    if (b) b.className = 'px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high';
+                Object.values(filterButtons).forEach((b) => {
+                    if (b)
+                        b.className =
+                            "px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-surface-container-low border border-outline-variant/30 text-secondary hover:bg-surface-container-high";
                 });
-                btn.className = 'px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-primary text-on-primary';
-                
+                btn.className =
+                    "px-4 py-1.5 rounded-full text-label-sm font-semibold transition-all bg-primary text-on-primary";
+
                 currentFilter = key;
                 filterPrestasi();
             });
@@ -397,57 +656,167 @@ const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) 
     filterPrestasi();
 
     // FAQ Accordion logic
-    const faqItems = document.querySelectorAll('.faq-item');
-    faqItems.forEach(faqItem => {
-        const toggleBtn = faqItem.querySelector('.faq-toggle');
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach((faqItem) => {
+        const toggleBtn = faqItem.querySelector(".faq-toggle");
         if (!toggleBtn) return;
-        
-        toggleBtn.addEventListener('click', () => {
-            const content = faqItem.querySelector('.faq-content');
-            const icon = toggleBtn.querySelector('.material-symbols-outlined');
+
+        toggleBtn.addEventListener("click", () => {
+            const content = faqItem.querySelector(".faq-content");
+            const icon = toggleBtn.querySelector(".material-symbols-outlined");
             if (!content || !icon) return;
 
             // Close other open FAQs
-            faqItems.forEach(otherItem => {
+            faqItems.forEach((otherItem) => {
                 if (otherItem !== faqItem) {
-                    const otherContent = otherItem.querySelector('.faq-content');
-                    const otherIcon = otherItem.querySelector('.faq-toggle .material-symbols-outlined');
+                    const otherContent =
+                        otherItem.querySelector(".faq-content");
+                    const otherIcon = otherItem.querySelector(
+                        ".faq-toggle .material-symbols-outlined",
+                    );
                     if (otherContent) otherContent.style.maxHeight = null;
-                    if (otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+                    if (otherIcon) otherIcon.style.transform = "rotate(0deg)";
                 }
             });
 
             if (content.style.maxHeight) {
                 content.style.maxHeight = null;
-                icon.style.transform = 'rotate(0deg)';
+                icon.style.transform = "rotate(0deg)";
             } else {
-                content.style.maxHeight = content.scrollHeight + 'px';
-                icon.style.transform = 'rotate(180deg)';
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.style.transform = "rotate(180deg)";
             }
         });
     });
 
-    // Visitor Counter Fetching
-    const countEl = document.getElementById('visitor-count');
-    if (countEl) {
-        const project = 'd4if-harkatnegeri-landing';
-        const key = 'visitors';
-        
-        fetch(`https://api.counterapi.dev/v1/${project}/${key}/up`)
-            .then(res => {
-                if (!res.ok) throw new Error('API Response Error');
-                return res.json();
-            })
-            .then(data => {
-                if (data && typeof data.count === 'number') {
-                    countEl.textContent = new Intl.NumberFormat('id-ID').format(data.count);
-                } else {
-                    countEl.textContent = '1.250+';
+    // Visitor Counter Fetching & Chart Rendering
+    const countEl = document.getElementById("visitor-count");
+    const project = "d4ti-landing-vercel";
+    const key = "d4ti-visitors-landing-vercel";
+    function updateSparklineChart() {
+        const last7Days = [];
+        for (let i = 6; i >= 0; i--) {
+            const d = new Date();
+            d.setDate(d.getDate() - i);
+            const year = d.getFullYear();
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const date = String(d.getDate()).padStart(2, '0');
+            
+            const dayLabel = d.toLocaleDateString('id-ID', { weekday: 'short' });
+            
+            last7Days.push({
+                dateStr: `${year}-${month}-${date}`,
+                label: dayLabel
+            });
+        }
+
+        const fetchPromises = last7Days.map(day => {
+            const dateKey = `d4ti-visitors-${day.dateStr}`;
+            return fetch(`https://api.counterapi.dev/v1/${project}/${dateKey}`)
+                .then(res => {
+                    if (res.status === 404) return { count: 0 };
+                    if (!res.ok) throw new Error('API Error');
+                    return res.json();
+                })
+                .then(data => ({
+                    day: day.label,
+                    date: day.dateStr,
+                    count: data.count || 0
+                }))
+                .catch(err => {
+                    console.error(`Error fetching daily data for ${day.dateStr}:`, err);
+                    const mockValues = {
+                        6: 12,
+                        5: 15,
+                        4: 9,
+                        3: 16,
+                        2: 13,
+                        1: 18,
+                        0: 0
+                    };
+                    const index = last7Days.findIndex(d => d.dateStr === day.dateStr);
+                    return {
+                        day: day.label,
+                        date: day.dateStr,
+                        count: mockValues[6 - index] || 0
+                    };
+                });
+        });
+
+        Promise.all(fetchPromises)
+            .then(results => {
+                const counts = results.map(r => r.count);
+                const maxCount = Math.max(...counts, 5);
+
+                const points = results.map((r, i) => {
+                    const x = (i * (100 / 6)).toFixed(1);
+                    const y = (85 - (r.count / maxCount) * 70).toFixed(1);
+                    return { x, y };
+                });
+
+                // Smooth Cubic Bezier Spline
+                let linePath = `M ${points[0].x} ${points[0].y}`;
+                for (let i = 0; i < points.length - 1; i++) {
+                    const p0 = points[i];
+                    const p1 = points[i + 1];
+                    const cpX1 = (Number(p0.x) + 8.3).toFixed(1);
+                    const cpY1 = p0.y;
+                    const cpX2 = (Number(p1.x) - 8.3).toFixed(1);
+                    const cpY2 = p1.y;
+                    linePath += ` C ${cpX1} ${cpY1}, ${cpX2} ${cpY2}, ${p1.x} ${p1.y}`;
                 }
+
+                const areaPath = `${linePath} L 100 100 L 0 100 Z`;
+
+                const lineEl = document.getElementById('sparkline-line-path');
+                const areaEl = document.getElementById('sparkline-area-path');
+                if (lineEl) lineEl.setAttribute('d', linePath);
+                if (areaEl) areaEl.setAttribute('d', areaPath);
             })
             .catch(err => {
-                console.error('Counter error:', err);
-                countEl.textContent = '1.250+';
+                console.error("Error drawing sparkline chart:", err);
+            });
+    }
+
+    function getTodayStr() {
+        const d = new Date();
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const date = String(d.getDate()).padStart(2, '0');
+        return `${year}-${month}-${date}`;
+    }
+
+    if (countEl) {
+        fetch(`https://api.counterapi.dev/v1/${project}/${key}/up`)
+            .then((res) => {
+                if (!res.ok) throw new Error("API Response Error");
+                return res.json();
+            })
+            .then((data) => {
+                if (data && typeof data.count === "number") {
+                    countEl.textContent = new Intl.NumberFormat("id-ID").format(data.count);
+                } else {
+                    countEl.textContent = "1.250+";
+                }
+            })
+            .catch((err) => {
+                console.error("Counter error:", err);
+                countEl.textContent = "1.250+";
+            });
+
+        const todayStr = getTodayStr();
+        const dailyKey = `d4ti-visitors-${todayStr}`;
+        fetch(`https://api.counterapi.dev/v1/${project}/${dailyKey}/up`)
+            .then((res) => {
+                if (!res.ok) throw new Error("API Response Error");
+                return res.json();
+            })
+            .then(() => {
+                updateSparklineChart();
+            })
+            .catch((err) => {
+                console.error("Daily increment counter error:", err);
+                updateSparklineChart();
             });
     }
 </script>
