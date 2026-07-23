@@ -148,6 +148,23 @@ const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) 
                     <p class="font-label-sm text-label-sm text-secondary">Praktikum</p>
                 </div>
             </section>
+
+            <!-- Visitor Counter Card -->
+            <section class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-5 flex items-center justify-between shadow-sm">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0">
+                        <span class="material-symbols-outlined text-[28px]">visibility</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-label-sm text-[10px] text-secondary uppercase tracking-widest font-bold">Total Pengunjung</span>
+                        <h4 id="visitor-count" class="font-headline-lg text-[22px] text-primary font-bold leading-tight mt-1">...</h4>
+                    </div>
+                </div>
+                <div class="flex items-center gap-1.5 px-3 py-1 bg-green-500/10 text-green-700 rounded-full text-[11px] font-bold shrink-0 self-center">
+                    <span class="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
+                    Live
+                </div>
+            </section>
         </div>
 
         <!-- Prestasi View -->
@@ -409,4 +426,28 @@ const sortedPrestasi = [...prestasiData].sort((a, b) => (parseInt(b.year) || 0) 
             }
         });
     });
+
+    // Visitor Counter Fetching
+    const countEl = document.getElementById('visitor-count');
+    if (countEl) {
+        const project = 'd4if-harkatnegeri-landing';
+        const key = 'visitors';
+        
+        fetch(`https://api.counterapi.dev/v1/${project}/${key}/up`)
+            .then(res => {
+                if (!res.ok) throw new Error('API Response Error');
+                return res.json();
+            })
+            .then(data => {
+                if (data && typeof data.count === 'number') {
+                    countEl.textContent = new Intl.NumberFormat('id-ID').format(data.count);
+                } else {
+                    countEl.textContent = '1.250+';
+                }
+            })
+            .catch(err => {
+                console.error('Counter error:', err);
+                countEl.textContent = '1.250+';
+            });
+    }
 </script>
