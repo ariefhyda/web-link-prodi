@@ -298,22 +298,53 @@ const sortedPrestasi = [...prestasiData].sort(
                             ...
                         </h4>
                     </div>
-                    <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0">
-                        <span class="material-symbols-outlined text-[20px]">visibility</span>
+                    <div
+                        class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary shrink-0"
+                    >
+                        <span class="material-symbols-outlined text-[20px]"
+                            >visibility</span
+                        >
                     </div>
                 </div>
 
                 <!-- Sparkline Line Chart (Full Width di Bawah) -->
                 <div class="-mx-5 mt-4 h-12 relative overflow-hidden">
-                    <svg id="sparkline-chart" class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <svg
+                        id="sparkline-chart"
+                        class="w-full h-full"
+                        viewBox="0 0 100 100"
+                        preserveAspectRatio="none"
+                    >
                         <defs>
-                            <linearGradient id="sparkline-grad" x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="0%" stop-color="var(--color-primary)" stop-opacity="0.15"></stop>
-                                <stop offset="100%" stop-color="var(--color-primary)" stop-opacity="0.0"></stop>
+                            <linearGradient
+                                id="sparkline-grad"
+                                x1="0"
+                                y1="0"
+                                x2="0"
+                                y2="1"
+                            >
+                                <stop
+                                    offset="0%"
+                                    stop-color="var(--color-primary)"
+                                    stop-opacity="0.15"></stop>
+                                <stop
+                                    offset="100%"
+                                    stop-color="var(--color-primary)"
+                                    stop-opacity="0.0"></stop>
                             </linearGradient>
                         </defs>
-                        <path id="sparkline-area-path" d="" fill="url(#sparkline-grad)"></path>
-                        <path id="sparkline-line-path" d="" fill="none" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path
+                            id="sparkline-area-path"
+                            d=""
+                            fill="url(#sparkline-grad)"></path>
+                        <path
+                            id="sparkline-line-path"
+                            d=""
+                            fill="none"
+                            stroke="var(--color-primary)"
+                            stroke-width="2.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"></path>
                     </svg>
                 </div>
             </section>
@@ -696,19 +727,35 @@ const sortedPrestasi = [...prestasiData].sort(
 
     function updateSparklineChart() {
         fetch(`https://api.counterapi.dev/v2/${project}/${key}/stats`)
-            .then(res => {
-                if (!res.ok) throw new Error('API Error');
+            .then((res) => {
+                if (!res.ok) throw new Error("API Error");
                 return res.json();
             })
-            .then(resData => {
+            .then((resData) => {
                 const stats = resData.data?.stats;
                 if (!stats || !stats.temporal || !stats.temporal.weekdays) {
-                    throw new Error('Stats format invalid');
+                    throw new Error("Stats format invalid");
                 }
                 const weekdaysData = stats.temporal.weekdays;
 
-                const daysShort = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-                const daysIndo = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
+                const daysShort = [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                ];
+                const daysIndo = [
+                    "Min",
+                    "Sen",
+                    "Sel",
+                    "Rab",
+                    "Kam",
+                    "Jum",
+                    "Sab",
+                ];
 
                 const currentDayIndex = new Date().getDay();
                 const results = [];
@@ -717,17 +764,17 @@ const sortedPrestasi = [...prestasiData].sort(
                     const targetIndex = (currentDayIndex - i + 7) % 7;
                     const dayName = daysShort[targetIndex];
                     const dayLabel = daysIndo[targetIndex];
-                    
+
                     const dayData = weekdaysData[dayName] || { up: 0, down: 0 };
                     const count = (dayData.up || 0) + (dayData.down || 0);
-                    
+
                     results.push({
                         day: dayLabel,
-                        count: count
+                        count: count,
                     });
                 }
 
-                const counts = results.map(r => r.count);
+                const counts = results.map((r) => r.count);
                 const maxCount = Math.max(...counts, 5);
 
                 const points = results.map((r, i) => {
@@ -750,14 +797,17 @@ const sortedPrestasi = [...prestasiData].sort(
 
                 const areaPath = `${linePath} L 100 100 L 0 100 Z`;
 
-                const lineEl = document.getElementById('sparkline-line-path');
-                const areaEl = document.getElementById('sparkline-area-path');
-                if (lineEl) lineEl.setAttribute('d', linePath);
-                if (areaEl) areaEl.setAttribute('d', areaPath);
+                const lineEl = document.getElementById("sparkline-line-path");
+                const areaEl = document.getElementById("sparkline-area-path");
+                if (lineEl) lineEl.setAttribute("d", linePath);
+                if (areaEl) areaEl.setAttribute("d", areaPath);
             })
-            .catch(err => {
-                console.error("Error drawing sparkline chart from stats API:", err);
-                
+            .catch((err) => {
+                console.error(
+                    "Error drawing sparkline chart from stats API:",
+                    err,
+                );
+
                 // Fallback mock graph to keep layout pretty
                 const mockCounts = [12, 15, 9, 16, 13, 18, 5];
                 const maxCount = 20;
@@ -777,10 +827,10 @@ const sortedPrestasi = [...prestasiData].sort(
                     linePath += ` C ${cpX1} ${cpY1}, ${cpX2} ${cpY2}, ${p1.x} ${p1.y}`;
                 }
                 const areaPath = `${linePath} L 100 100 L 0 100 Z`;
-                const lineEl = document.getElementById('sparkline-line-path');
-                const areaEl = document.getElementById('sparkline-area-path');
-                if (lineEl) lineEl.setAttribute('d', linePath);
-                if (areaEl) areaEl.setAttribute('d', areaPath);
+                const lineEl = document.getElementById("sparkline-line-path");
+                const areaEl = document.getElementById("sparkline-area-path");
+                if (lineEl) lineEl.setAttribute("d", linePath);
+                if (areaEl) areaEl.setAttribute("d", areaPath);
             });
     }
 
@@ -795,12 +845,17 @@ const sortedPrestasi = [...prestasiData].sort(
                 let count = 0;
                 if (resData.data) {
                     const d = resData.data;
-                    count = d.count !== undefined ? d.count : ((d.up_count || 0) + (d.down_count || 0));
+                    count =
+                        d.count !== undefined
+                            ? d.count
+                            : (d.up_count || 0) + (d.down_count || 0);
                 } else if (resData.count !== undefined) {
                     count = resData.count;
                 }
                 if (count > 0) {
-                    countEl.textContent = new Intl.NumberFormat("id-ID").format(count);
+                    countEl.textContent = new Intl.NumberFormat("id-ID").format(
+                        count,
+                    );
                 } else {
                     countEl.textContent = "1.250+";
                 }
