@@ -693,58 +693,40 @@ const sortedPrestasi = [...prestasiData].sort(
     const countEl = document.getElementById("visitor-count");
     const project = "d4ti-landing-vercel";
     const key = "d4ti-visitors-landing-vercel";
+
     function updateSparklineChart() {
-        const last7Days = [];
-        for (let i = 6; i >= 0; i--) {
-            const d = new Date();
-            d.setDate(d.getDate() - i);
-            const year = d.getFullYear();
-            const month = String(d.getMonth() + 1).padStart(2, '0');
-            const date = String(d.getDate()).padStart(2, '0');
-            
-            const dayLabel = d.toLocaleDateString('id-ID', { weekday: 'short' });
-            
-            last7Days.push({
-                dateStr: `${year}-${month}-${date}`,
-                label: dayLabel
-            });
-        }
+        fetch(`https://api.counterapi.dev/v2/${project}/${key}/stats`)
+            .then(res => {
+                if (!res.ok) throw new Error('API Error');
+                return res.json();
+            })
+            .then(resData => {
+                const stats = resData.data?.stats;
+                if (!stats || !stats.temporal || !stats.temporal.weekdays) {
+                    throw new Error('Stats format invalid');
+                }
+                const weekdaysData = stats.temporal.weekdays;
 
-        const fetchPromises = last7Days.map(day => {
-            const dateKey = `d4ti-visitors-${day.dateStr}`;
-            return fetch(`https://api.counterapi.dev/v1/${project}/${dateKey}`)
-                .then(res => {
-                    if (res.status === 404) return { count: 0 };
-                    if (!res.ok) throw new Error('API Error');
-                    return res.json();
-                })
-                .then(data => ({
-                    day: day.label,
-                    date: day.dateStr,
-                    count: data.count || 0
-                }))
-                .catch(err => {
-                    console.error(`Error fetching daily data for ${day.dateStr}:`, err);
-                    const mockValues = {
-                        6: 12,
-                        5: 15,
-                        4: 9,
-                        3: 16,
-                        2: 13,
-                        1: 18,
-                        0: 0
-                    };
-                    const index = last7Days.findIndex(d => d.dateStr === day.dateStr);
-                    return {
-                        day: day.label,
-                        date: day.dateStr,
-                        count: mockValues[6 - index] || 0
-                    };
-                });
-        });
+                const daysShort = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+                const daysIndo = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
 
-        Promise.all(fetchPromises)
-            .then(results => {
+                const currentDayIndex = new Date().getDay();
+                const results = [];
+
+                for (let i = 6; i >= 0; i--) {
+                    const targetIndex = (currentDayIndex - i + 7) % 7;
+                    const dayName = daysShort[targetIndex];
+                    const dayLabel = daysIndo[targetIndex];
+                    
+                    const dayData = weekdaysData[dayName] || { up: 0, down: 0 };
+                    const count = (dayData.up || 0) + (dayData.down || 0);
+                    
+                    results.push({
+                        day: dayLabel,
+                        count: count
+                    });
+                }
+
                 const counts = results.map(r => r.count);
                 const maxCount = Math.max(...counts, 5);
 
@@ -774,48 +756,59 @@ const sortedPrestasi = [...prestasiData].sort(
                 if (areaEl) areaEl.setAttribute('d', areaPath);
             })
             .catch(err => {
-                console.error("Error drawing sparkline chart:", err);
+                console.error("Error drawing sparkline chart from stats API:", err);
+                
+                // Fallback mock graph to keep layout pretty
+                const mockCounts = [12, 15, 9, 16, 13, 18, 5];
+                const maxCount = 20;
+                const points = mockCounts.map((count, i) => {
+                    const x = (i * (100 / 6)).toFixed(1);
+                    const y = (85 - (count / maxCount) * 70).toFixed(1);
+                    return { x, y };
+                });
+                let linePath = `M ${points[0].x} ${points[0].y}`;
+                for (let i = 0; i < points.length - 1; i++) {
+                    const p0 = points[i];
+                    const p1 = points[i + 1];
+                    const cpX1 = (Number(p0.x) + 8.3).toFixed(1);
+                    const cpY1 = p0.y;
+                    const cpX2 = (Number(p1.x) - 8.3).toFixed(1);
+                    const cpY2 = p1.y;
+                    linePath += ` C ${cpX1} ${cpY1}, ${cpX2} ${cpY2}, ${p1.x} ${p1.y}`;
+                }
+                const areaPath = `${linePath} L 100 100 L 0 100 Z`;
+                const lineEl = document.getElementById('sparkline-line-path');
+                const areaEl = document.getElementById('sparkline-area-path');
+                if (lineEl) lineEl.setAttribute('d', linePath);
+                if (areaEl) areaEl.setAttribute('d', areaPath);
             });
     }
 
-    function getTodayStr() {
-        const d = new Date();
-        const year = d.getFullYear();
-        const month = String(d.getMonth() + 1).padStart(2, '0');
-        const date = String(d.getDate()).padStart(2, '0');
-        return `${year}-${month}-${date}`;
-    }
-
     if (countEl) {
-        fetch(`https://api.counterapi.dev/v1/${project}/${key}/up`)
+        // Increment counter using V2 API
+        fetch(`https://api.counterapi.dev/v2/${project}/${key}/up`)
             .then((res) => {
                 if (!res.ok) throw new Error("API Response Error");
                 return res.json();
             })
-            .then((data) => {
-                if (data && typeof data.count === "number") {
-                    countEl.textContent = new Intl.NumberFormat("id-ID").format(data.count);
+            .then((resData) => {
+                let count = 0;
+                if (resData.data) {
+                    const d = resData.data;
+                    count = d.count !== undefined ? d.count : ((d.up_count || 0) + (d.down_count || 0));
+                } else if (resData.count !== undefined) {
+                    count = resData.count;
+                }
+                if (count > 0) {
+                    countEl.textContent = new Intl.NumberFormat("id-ID").format(count);
                 } else {
                     countEl.textContent = "1.250+";
                 }
+                updateSparklineChart();
             })
             .catch((err) => {
                 console.error("Counter error:", err);
                 countEl.textContent = "1.250+";
-            });
-
-        const todayStr = getTodayStr();
-        const dailyKey = `d4ti-visitors-${todayStr}`;
-        fetch(`https://api.counterapi.dev/v1/${project}/${dailyKey}/up`)
-            .then((res) => {
-                if (!res.ok) throw new Error("API Response Error");
-                return res.json();
-            })
-            .then(() => {
-                updateSparklineChart();
-            })
-            .catch((err) => {
-                console.error("Daily increment counter error:", err);
                 updateSparklineChart();
             });
     }
